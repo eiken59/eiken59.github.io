@@ -1,0 +1,352 @@
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+File: test.html
+File: test.css
+File: test.tmp
+Css: p{margin-top:0;margin-bottom:0}
+Css: p.indent{text-indent:0;}
+Css: p + p{margin-top:1em;}
+Css: p + div, p + pre {margin-top:1em;}
+Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p:first-child{ margin-bottom:0; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: div.newtheorem .head{font-weight: bold;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .hline {border-top: 1px solid black;}
+Css: .hline + .vspace:last-child{display:none;}
+Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
+Css: .tabbing-right {text-align:right;}
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: .reversemarginpar{float:left;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: div.abstract p {margin-left:5%; margin-right:5%;}
+Css: div.abstract {width:100%;}
+Css: .abstracttitle{text-align:center;margin-bottom:1em;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+Css: dl.enumerate {display:grid; grid-template-columns: 3ch 1fr; align-items: top; row-gap:1ch;}
+Css: dd.enumerate {margin-left: 0;}
+--- needs --- test.idv[2] ==> test0x.png ---
+--- needs --- test.idv[3] ==> test1x.png ---
+--- needs --- test.idv[4] ==> test2x.png ---
+--- needs --- test.idv[5] ==> test3x.png ---
+--- needs --- test.idv[6] ==> test4x.png ---
+--- needs --- test.idv[7] ==> test5x.png ---
+--- needs --- test.idv[9] ==> test6x.png ---
+--- needs --- test.idv[10] ==> test7x.png ---
+--- needs --- test.idv[11] ==> test8x.png ---
+--- needs --- test.idv[12] ==> test9x.png ---
+--- needs --- test.idv[13] ==> test10x.png ---
+--- needs --- test.idv[14] ==> test11x.png ---
+--- needs --- test.idv[16] ==> test12x.png ---
+--- needs --- test.idv[17] ==> test13x.png ---
+--- needs --- test.idv[18] ==> test14x.png ---
+--- needs --- test.idv[19] ==> test15x.png ---
+--- needs --- test.idv[20] ==> test16x.png ---
+--- needs --- test.idv[21] ==> test17x.png ---
+--- needs --- test.idv[22] ==> test18x.png ---
+--- needs --- test.idv[23] ==> test19x.png ---
+--- needs --- test.idv[24] ==> test20x.png ---
+--- needs --- test.idv[25] ==> test21x.png ---
+--- needs --- test.idv[26] ==> test22x.png ---
+--- needs --- test.idv[27] ==> test23x.png ---
+--- needs --- test.idv[28] ==> test24x.png ---
+--- needs --- test.idv[29] ==> test25x.png ---
+--- needs --- test.idv[30] ==> test26x.png ---
+--- needs --- test.idv[31] ==> test27x.png ---
+--- needs --- test.idv[32] ==> test28x.png ---
+--- needs --- test.idv[34] ==> test29x.png ---
+--- needs --- test.idv[35] ==> test30x.png ---
+--- needs --- test.idv[36] ==> test31x.png ---
+--- needs --- test.idv[37] ==> test32x.png ---
+--- needs --- test.idv[38] ==> test33x.png ---
+--- needs --- test.idv[39] ==> test34x.png ---
+--- needs --- test.idv[40] ==> test35x.png ---
+--- needs --- test.idv[42] ==> test36x.png ---
+--- needs --- test.idv[43] ==> test37x.png ---
+--- needs --- test.idv[44] ==> test38x.png ---
+--- needs --- test.idv[45] ==> test39x.png ---
+--- needs --- test.idv[46] ==> test40x.png ---
+--- needs --- test.idv[47] ==> test41x.png ---
+--- needs --- test.idv[48] ==> test42x.png ---
+--- needs --- test.idv[49] ==> test43x.png ---
+--- needs --- test.idv[50] ==> test44x.png ---
+--- needs --- test.idv[51] ==> test45x.png ---
+--- needs --- test.idv[52] ==> test46x.png ---
+--- needs --- test.idv[53] ==> test47x.png ---
+--- needs --- test.idv[55] ==> test48x.png ---
+--- needs --- test.idv[56] ==> test49x.png ---
+--- needs --- test.idv[57] ==> test50x.png ---
+--- needs --- test.idv[58] ==> test51x.png ---
+--- needs --- test.idv[59] ==> test52x.png ---
+--- needs --- test.idv[60] ==> test53x.png ---
+--- needs --- test.idv[62] ==> test54x.png ---
+--- needs --- test.idv[63] ==> test55x.png ---
+--- needs --- test.idv[64] ==> test56x.png ---
+--- needs --- test.idv[65] ==> test57x.png ---
+--- needs --- test.idv[66] ==> test58x.png ---
+--- needs --- test.idv[67] ==> test59x.png ---
+--- needs --- test.idv[69] ==> test60x.png ---
+--- needs --- test.idv[70] ==> test61x.png ---
+--- needs --- test.idv[71] ==> test62x.png ---
+--- needs --- test.idv[72] ==> test63x.png ---
+--- needs --- test.idv[73] ==> test64x.png ---
+--- needs --- test.idv[74] ==> test65x.png ---
+--- needs --- test.idv[76] ==> test66x.png ---
+--- needs --- test.idv[77] ==> test67x.png ---
+--- needs --- test.idv[78] ==> test68x.png ---
+--- needs --- test.idv[79] ==> test69x.png ---
+--- needs --- test.idv[80] ==> test70x.png ---
+--- needs --- test.idv[81] ==> test71x.png ---
+--- needs --- test.idv[82] ==> test72x.png ---
+--- needs --- test.idv[83] ==> test73x.png ---
+--- needs --- test.idv[84] ==> test74x.png ---
+--- needs --- test.idv[85] ==> test75x.png ---
+--- needs --- test.idv[86] ==> test76x.png ---
+--- needs --- test.idv[87] ==> test77x.png ---
+--- needs --- test.idv[88] ==> test78x.png ---
+--- needs --- test.idv[89] ==> test79x.png ---
+--- needs --- test.idv[90] ==> test80x.png ---
+--- needs --- test.idv[91] ==> test81x.png ---
+--- needs --- test.idv[92] ==> test82x.png ---
+--- needs --- test.idv[93] ==> test83x.png ---
+--- needs --- test.idv[94] ==> test84x.png ---
+--- needs --- test.idv[95] ==> test85x.png ---
+--- needs --- test.idv[96] ==> test86x.png ---
+--- needs --- test.idv[97] ==> test87x.png ---
+--- needs --- test.idv[98] ==> test88x.png ---
+--- needs --- test.idv[99] ==> test89x.png ---
+--- needs --- test.idv[100] ==> test90x.png ---
+--- needs --- test.idv[101] ==> test91x.png ---
+--- needs --- test.idv[102] ==> test92x.png ---
+--- needs --- test.idv[103] ==> test93x.png ---
+--- needs --- test.idv[104] ==> test94x.png ---
+--- needs --- test.idv[105] ==> test95x.png ---
+--- needs --- test.idv[106] ==> test96x.png ---
+--- needs --- test.idv[107] ==> test97x.png ---
+--- needs --- test.idv[108] ==> test98x.png ---
+--- needs --- test.idv[109] ==> test99x.png ---
+--- needs --- test.idv[110] ==> test100x.png ---
+--- needs --- test.idv[111] ==> test101x.png ---
+--- needs --- test.idv[112] ==> test102x.png ---
+--- needs --- test.idv[113] ==> test103x.png ---
+--- needs --- test.idv[114] ==> test104x.png ---
+--- needs --- test.idv[115] ==> test105x.png ---
+--- needs --- test.idv[116] ==> test106x.png ---
+--- needs --- test.idv[117] ==> test107x.png ---
+--- needs --- test.idv[118] ==> test108x.png ---
+--- needs --- test.idv[119] ==> test109x.png ---
+--- needs --- test.idv[120] ==> test110x.png ---
+--- needs --- test.idv[121] ==> test111x.png ---
+--- needs --- test.idv[122] ==> test112x.png ---
+--- needs --- test.idv[124] ==> test113x.png ---
+--- needs --- test.idv[125] ==> test114x.png ---
+--- needs --- test.idv[126] ==> test115x.png ---
+--- needs --- test.idv[127] ==> test116x.png ---
+--- needs --- test.idv[128] ==> test117x.png ---
+--- needs --- test.idv[129] ==> test118x.png ---
+--- needs --- test.idv[130] ==> test119x.png ---
+--- needs --- test.idv[131] ==> test120x.png ---
+--- needs --- test.idv[132] ==> test121x.png ---
+--- needs --- test.idv[133] ==> test122x.png ---
+--- needs --- test.idv[134] ==> test123x.png ---
+--- needs --- test.idv[135] ==> test124x.png ---
+--- needs --- test.idv[136] ==> test125x.png ---
+--- needs --- test.idv[137] ==> test126x.png ---
+--- needs --- test.idv[138] ==> test127x.png ---
+--- needs --- test.idv[139] ==> test128x.png ---
+--- needs --- test.idv[140] ==> test129x.png ---
+--- needs --- test.idv[141] ==> test130x.png ---
+--- needs --- test.idv[143] ==> test131x.png ---
+--- needs --- test.idv[144] ==> test132x.png ---
+--- needs --- test.idv[145] ==> test133x.png ---
+--- needs --- test.idv[146] ==> test134x.png ---
+--- needs --- test.idv[147] ==> test135x.png ---
+--- needs --- test.idv[148] ==> test136x.png ---
+--- needs --- test.idv[149] ==> test137x.png ---
+--- needs --- test.idv[150] ==> test138x.png ---
+--- needs --- test.idv[151] ==> test139x.png ---
+--- needs --- test.idv[152] ==> test140x.png ---
+--- needs --- test.idv[153] ==> test141x.png ---
+--- needs --- test.idv[154] ==> test142x.png ---
+--- needs --- test.idv[155] ==> test143x.png ---
+--- needs --- test.idv[156] ==> test144x.png ---
+--- needs --- test.idv[157] ==> test145x.png ---
+--- needs --- test.idv[158] ==> test146x.png ---
+--- needs --- test.idv[159] ==> test147x.png ---
+--- needs --- test.idv[160] ==> test148x.png ---
+--- needs --- test.idv[161] ==> test149x.png ---
+--- needs --- test.idv[162] ==> test150x.png ---
+--- needs --- test.idv[163] ==> test151x.png ---
+--- needs --- test.idv[164] ==> test152x.png ---
+--- needs --- test.idv[165] ==> test153x.png ---
+--- needs --- test.idv[166] ==> test154x.png ---
+--- needs --- test.idv[167] ==> test155x.png ---
+--- needs --- test.idv[168] ==> test156x.png ---
+--- needs --- test.idv[169] ==> test157x.png ---
+--- needs --- test.idv[170] ==> test158x.png ---
+--- needs --- test.idv[171] ==> test159x.png ---
+--- needs --- test.idv[172] ==> test160x.png ---
+--- needs --- test.idv[173] ==> test161x.png ---
+--- needs --- test.idv[174] ==> test162x.png ---
+--- needs --- test.idv[175] ==> test163x.png ---
+--- needs --- test.idv[176] ==> test164x.png ---
+--- needs --- test.idv[177] ==> test165x.png ---
+--- needs --- test.idv[178] ==> test166x.png ---
+--- needs --- test.idv[179] ==> test167x.png ---
+--- needs --- test.idv[181] ==> test168x.png ---
+--- needs --- test.idv[182] ==> test169x.png ---
+--- needs --- test.idv[183] ==> test170x.png ---
+--- needs --- test.idv[184] ==> test171x.png ---
+--- needs --- test.idv[185] ==> test172x.png ---
+--- needs --- test.idv[186] ==> test173x.png ---
+--- needs --- test.idv[188] ==> test174x.png ---
+--- needs --- test.idv[189] ==> test175x.png ---
+--- needs --- test.idv[190] ==> test176x.png ---
+--- needs --- test.idv[191] ==> test177x.png ---
+--- needs --- test.idv[192] ==> test178x.png ---
+--- needs --- test.idv[193] ==> test179x.png ---
+--- needs --- test.idv[194] ==> test180x.png ---
+--- needs --- test.idv[195] ==> test181x.png ---
+--- needs --- test.idv[196] ==> test182x.png ---
+--- needs --- test.idv[198] ==> test183x.png ---
+--- needs --- test.idv[199] ==> test184x.png ---
+--- needs --- test.idv[200] ==> test185x.png ---
+--- needs --- test.idv[201] ==> test186x.png ---
+--- needs --- test.idv[202] ==> test187x.png ---
+--- needs --- test.idv[204] ==> test188x.png ---
+--- needs --- test.idv[205] ==> test189x.png ---
+--- needs --- test.idv[206] ==> test190x.png ---
+--- needs --- test.idv[207] ==> test191x.png ---
+--- needs --- test.idv[208] ==> test192x.png ---
+--- needs --- test.idv[209] ==> test193x.png ---
+--- needs --- test.idv[210] ==> test194x.png ---
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmr","5","5","100")
+Font("cmr","7","7","100")
+Font("cmr","10","10","100")
+Font("cmmi","5","5","100")
+Font("cmmi","7","7","100")
+Font("cmmi","10","10","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("cmr","17","17","100")
+Font("cmr","12","12","100")
+Font("cmbx","10","10","100")
+Font("msbm","10","10","100")
