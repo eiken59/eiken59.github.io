@@ -55,7 +55,24 @@ params:
     profileMode:
           enabled: true
           title: CHANG Yung-Hsuan
-          subtitle: "I am an applied-mathematics-major junior at National Yang Ming Chiao Tung University, Taiwan; I am currently in exchange at École polytechnique, France. My long-term aim is to obtain FSA certification before 30 and work in the insurance industry."
+          subtitle: |
+            &nbsp;
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan. I grew up in Hsinchu, Taiwan, and found my curiosity early on in numbers, logic, and teaching others how to make sense of them.
+
+            &nbsp;
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now I study applied mathematics at National Yang Ming Chiao Tung University and am currently on exchange at École polytechnique in France. I believe math is not just a tool to solve problems, but a compass to navigate uncertainty, build trust, and shape how decisions are made in the world.
+
+            &nbsp;
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My journey is one that connects countries, disciplines, and people: from tutoring an 8th grader across borders to preparing for the SOA exams while studying stochastic processes, to drafting statements that speak both in proof and in purpose.
+
+            &nbsp;
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's understanding how risk compounds, or helping someone grasp a new concept for the first time; I'm here for the insight, the clarity, and the quiet joy of making something complex beautifully clear.
+
+            &nbsp;
           imageUrl: "fairy.jpeg"
           imageWidth: 160
           imageHeight: auto
@@ -89,9 +106,11 @@ params:
         # - name: Google Scholar
         #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
-          url: https://github.com/eiken59
+          url: https://github.com/eiken59/
         - name: LinkedIn
-          url: https://www.linkedin.com/in/eiken59
+          url: https://www.linkedin.com/in/eiken59/
+        # - name: Google Sites
+        #   url: https://sites.google.com/view/eiken59/
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
         # - name: Twitter
