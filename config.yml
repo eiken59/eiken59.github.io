@@ -123,7 +123,7 @@ params:
         favicon: fairy.ico
         favicon16x16: fairy-16x16.png
         favicon32x32: fairy-32x32.png
-        apple_touch_icon: fairy.jpeg
+        apple_touch_icon: fairy_noBG.png
     cover:
         hiddenInList: false
         hiddenInSingle: true
