@@ -120,7 +120,7 @@ params:
 
     assets:
         disableScrollBarStyle: true
-        favicon: fairy.ico
+        favicon: fairy_noBG.ico
         favicon16x16: fairy-16x16.png
         favicon32x32: fairy-32x32.png
         apple_touch_icon: fairy_noBG.png
@@ -129,7 +129,7 @@ params:
         hiddenInSingle: true
     label:
       text: "CHANG Yung-Hsuan"
-      icon: fairy.ico
+      icon: fairy_noBG.ico
       iconHeight: 18
 
 markup:
