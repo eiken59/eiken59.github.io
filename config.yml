@@ -1,5 +1,5 @@
 baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: CHANG Yung-Hsuan's Website
+title: Yung-Hsuan's Website
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -54,11 +54,11 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: CHANG Yung-Hsuan
+          title: CHANG Yung-Hsuan (張永璿)
           subtitle: |
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan. I grew up in Hsinchu, Taiwan, and found my curiosity early on in numbers, logic, and teaching others how to make sense of them.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan; you can also call me Eiken. I grew up in Hsinchu, Taiwan, and found my curiosity early on in numbers, logic, and teaching others how to make sense of them.
 
             &nbsp;
 
