@@ -1,5 +1,5 @@
 baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: CHANG Yung-Hsuan
+title: CHANG Yung-Hsuan's Website
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -29,7 +29,7 @@ menu:
         #   weight: 6
 
 params:
-    description: "This website hosts CHANG Yung-Hsuan's curriculum vitae and contact information."
+    description: "This website hosts CHANG Yung-Hsuan's curriculum vitae, contact information, and academic backgrounds."
     author: CHANG Yung-Hsuan
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -66,14 +66,14 @@ params:
 
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My journey is one that connects countries, disciplines, and people: from tutoring an 8th grader across borders to preparing for the SOA exams while studying stochastic processes, to drafting statements that speak both in proof and in purpose.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My journey is one that connects countries, disciplines, and people: from tutoring an 8th grader across borders to preparing for the SOA exams, to drafting statements that speak both in proof and in purpose.
 
             &nbsp;
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's understanding how risk compounds, or helping someone grasp a new concept for the first time; I'm here for the insight, the clarity, and the quiet joy of making something complex beautifully clear.
 
             &nbsp;
-          imageUrl: "fairy.jpeg"
+          imageUrl: "fairy.png"
           imageWidth: 160
           imageHeight: auto
           buttons:
