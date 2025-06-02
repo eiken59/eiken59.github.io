@@ -14,10 +14,10 @@ menu:
     main:
         # - name: Books
         #   url: books/
-        #   weight: 5 
-        - name: Por
+        #   weight: 5
+        - name: Teaching Portfolio
           url: portfolio/
-          weight: 2
+          weight: 1
         # - name: Courses
         #   url: courses/
         #   weight: 3
@@ -49,7 +49,7 @@ params:
     disableScrollToTop: true
     TocOpen: true
     ShowWordCount: false
-    UseHugoToc: true
+    UseHugoToc: false
     comments: false
     math: true
     profileMode:
@@ -58,19 +58,11 @@ params:
           subtitle: |
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan; you can also call me Eiken. I grew up in Hsinchu, Taiwan, and found my curiosity early on in numbers, logic, and teaching others how to make sense of them.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan, also known as Eiken, from Hsinchu, Taiwan. I study applied mathematics at National Yang Ming Chiao Tung University and am currently on exchange at École polytechnique in France. I see math as a compass to navigate uncertainty, build trust, and shape decisions.
 
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now I study applied mathematics at National Yang Ming Chiao Tung University and am currently on exchange at École polytechnique in France. I believe math is not just a tool to solve problems, but a compass to navigate uncertainty, build trust, and shape how decisions are made in the world.
-
-            &nbsp;
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My journey is one that connects countries, disciplines, and people: from tutoring an 8th grader across borders to preparing for the SOA exams, to drafting statements that speak both in proof and in purpose.
-
-            &nbsp;
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's understanding how risk compounds, or helping someone grasp a new concept for the first time; I'm here for the insight, the clarity, and the quiet joy of making something complex beautifully clear.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My journey spans tutoring, SOA exam preparation, and crafting statements that blend proof with purpose. I thrive on making complex ideas beautifully clear.
 
             &nbsp;
           imageUrl: "fairy.jpeg"
@@ -83,7 +75,7 @@ params:
             #   url: data/
             # - name: Books
             #   url: books/
-            - name: Portfolio
+            - name: Teaching Portfolio
               url: portfolio/
             # - name: Tags
             #   url: tags/
@@ -141,5 +133,5 @@ markup:
         style: autumn
     tableOfContents:
         endLevel: 2
-        ordered: false
+        ordered: true
         startLevel: 2

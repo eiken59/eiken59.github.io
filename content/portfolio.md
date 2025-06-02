@@ -12,8 +12,8 @@ summary: "A selection of lesson designs and self-authored resources developed th
 #     image: "course_figure.png"
 #     alt: "Figure title (preferably 1280x720 pixels)"
 #     relative: true
-disableAnchoredHeadings: false
-showToc: true
+disableAnchoredHeadings: true
+showToc: false
 
 ---
 
