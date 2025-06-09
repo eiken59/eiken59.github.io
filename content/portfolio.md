@@ -4,7 +4,7 @@ date: 2025-06-02
 url: /portfolio/
 # aliases:
     # - /old_url.html
-tags: ["teaching", "mathematics", "tutor", "tutoring", "bilingual"]
+tags: ["mathematics", "tutor", "tutoring", "teaching", "bilingual"]
 author: ["CHANG Yung-Hsuan"]
 description: "Curriculum Design & Teaching Materials, CHANG Yung-Hsuan" 
 summary: "A selection of lesson designs and self-authored resources developed through tutoring, academic interests, and interdisciplinary exploration. Each entry emphasizes conceptual clarity, student engagement, and bilingual (English–Mandarin) adaptability."

@@ -15,9 +15,12 @@ menu:
         # - name: Books
         #   url: books/
         #   weight: 5
-        - name: Teaching Portfolio
+        - name: Tutoring Portfolio
           url: portfolio/
           weight: 1
+        - name: 高中學習歷程檔案
+          url: hs_portfolio/
+          weight: 2
         # - name: Courses
         #   url: courses/
         #   weight: 3
@@ -44,10 +47,10 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["portfolio"]
-    ShowToc: true
+    # MainSections: ["portfolio"]
+    ShowToc: false
     disableScrollToTop: true
-    TocOpen: true
+    TocOpen: false
     ShowWordCount: false
     UseHugoToc: false
     comments: false
@@ -75,8 +78,10 @@ params:
             #   url: data/
             # - name: Books
             #   url: books/
-            - name: Teaching Portfolio
+            - name: Tutoring Portfolio
               url: portfolio/
+            - name: 高中學習歷程檔案
+              url: hs_portfolio/
             # - name: Tags
             #   url: tags/
             # - name: Archive
