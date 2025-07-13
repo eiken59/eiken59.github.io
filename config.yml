@@ -37,7 +37,7 @@ params:
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: true
+    hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
@@ -55,6 +55,9 @@ params:
     UseHugoToc: false
     comments: false
     math: true
+    footer:
+        text: "<em>On dirige ce qu'on affronte. C'est là qu'on trouve la magie.</em>"
+        hideCopyright: true
     profileMode:
           enabled: true
           title: CHANG Yung-Hsuan (張永璿)
