@@ -1,0 +1,12 @@
+/* Make profile (home) image rectangular */
+.profile img,
+.profile .avatar,
+.profile .avatar img {
+  border-radius: 0 !important;   /* remove circle */
+  box-shadow: none !important;    /* optional: remove ring/shadow */
+  border-radius: 10px !important;  /* Optional: slightly rounded corners instead of sharp edges */
+  border: none !important;          /* remove border */
+  outline: none !important;          /* remove outline */
+  padding: 0 !important;             /* remove inner spacing that can look like a ring */
+  background: transparent !important;/* no background ring */
+}
