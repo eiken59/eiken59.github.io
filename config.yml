@@ -64,7 +64,7 @@ params:
           subtitle: |
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan, also known as Eiken, from Hsinchu, Taiwan. I study applied mathematics at National Yang Ming Chiao Tung University. I see math as a compass to navigate uncertainty, build trust, and shape decisions.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan, also known as Eiken, from Hsinchu, Taiwan. I am studying applied mathematics at the Department of Applied Mathematics, National Yang Ming Chiao Tung University.
 
             &nbsp;
 
@@ -72,7 +72,7 @@ params:
 
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, I am finishing my undergraduate studies and preparing for the next chapter in my life. I plan to take SOA exams and apply for graduate school in the United States. I am also look forward to becoming an FSA before my 30s.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, I am finishing my undergraduate studies and preparing for the next chapter in my life. I plan to take SOA exams and to apply for graduate school in the United States. I am also look forward to becoming an FSA before my 30s.
 
             &nbsp;
           imageUrl: "fairy.jpeg"
@@ -100,7 +100,7 @@ params:
         - name: CV
           url: eiken59_CV.pdf
         - name: Email
-          url: mailto:eiken0525@gmail.com
+          url: mailto:eiken59@icloud.com
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
         # - name: Location
