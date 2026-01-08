@@ -8,6 +8,7 @@ description: "Undergraduate Course Reflections, CHANG Yung-Hsuan"
 summary: "Bachelor of Science in Applied Mathematics (expected to graduate in June 2026), National Yang Ming Chiao Tung University"
 disableAnchoredHeadings: true
 showToc: true
+UseHugoToc: true
 
 ---
 
