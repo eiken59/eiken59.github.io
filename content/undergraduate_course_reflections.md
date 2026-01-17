@@ -18,21 +18,21 @@ I am now a senior at National Yang Ming Chiao Tung University, and below are my 
 
 I took 27 credits this semester. My GPA was 4.09.
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Calculus A (I) | Yuki CHINO | 4 | A+ |
-| Physics (I) | LIN Chun-Liang | 4 | A |
-| Introduction to Computer Science (I) | CHEN Chiuyuan | 3 | A- |
-| Introduction to Scientific Research and Implementation (I) | *Interdisciplinary Science Degree Program* | 3 | A |
-| Linear Algebra (I) | SHIUE Ming-Cheng | 3 | A+ |
-| Mentor’s Hours | *Department of Applied Mathematics* | 1 | P |
-| Service Learning I | *Department of Applied Mathematics* | 1 | P |
-| Basic Mathematics | WENG Chih-wen | 3 | A |
-| Honor Calculus Problem Solving Session (I) | CHAN Chi-Hin | 1 | A |
-| Physics Recitation (I) | LIN Chun-Liang | 0 | P |
-| Physical Education | CHANG Yu-Hua | 0 | A- |
-| English Communication | KWONG Yuemin | 2 | A+ |
-| Japanese (I) | KAMIJO Sumie | 2 | A+ |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Calculus A (I) | Yuki CHINO | 千野由喜 | 4 | A+ |
+| Physics (I) | LIN Chun-Liang | 林俊良 | 4 | A |
+| Introduction to Computer Science (I) | CHEN Chiuyuan | 陳秋媛 | 3 | A- |
+| Introduction to Scientific Research and Implementation (I) | *Interdisciplinary Science Degree Program* | *理學院科學學士學位學程* | 3 | A |
+| Linear Algebra (I) | SHIUE Ming-Cheng | 薛名成 | 3 | A+ |
+| Mentor’s Hours | *Department of Applied Mathematics* | *應用數學系* | 1 | P |
+| Service Learning I | *Department of Applied Mathematics* | *應用數學系* | 1 | P |
+| Basic Mathematics | WENG Chih-wen | 翁志文 | 3 | A |
+| Honor Calculus Problem Solving Session (I) | CHAN Chi-Hin | 陳子軒 | 1 | A |
+| Physics Recitation (I) | LIN Chun-Liang | 林俊良 | 0 | P |
+| Physical Education | CHANG Yu-Hua | 張祐華 | 0 | A- |
+| English Communication | KWONG Yuemin | 鄺越敏 | 2 | A+ |
+| Japanese (I) | KAMIJO Sumie | 上條純惠 | 2 | A+ |
 
 Taking 27 credits was tough, especially after midterms. However, most of my grades were within expectations, except for Introduction to Computer Science.
 
@@ -96,19 +96,19 @@ A bit boring, need to focus as the teacher calls on students.
 
 I took 24 credits this semester. My GPA was 3.94.
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Calculus A (II) | Yuki CHINO | 4 | A+ |
-| Physics (II) | LIN Chun-Liang | 4 | B |
-| Discrete Mathematics | WENG Chih-wen | 3 | A- |
-| Introduction to Computer Science (II) | CHEN Chiuyuan | 3 | A+ |
-| Introduction to Scientific Research and Implementation (II) | *Interdisciplinary Science Degree Program* | 3 | A+ |
-| Linear Algebra (II) | SHIUE Ming-Cheng | 3 | A |
-| Mentor’s Hours | *Department of Applied Mathematics* | 1 | P |
-| Service Learning II | *Department of Applied Mathematics* | 1 | A |
-| Physics Recitation (II) | LIN Chun-Liang | 0 | P |
-| Physical Education | CHANG Yu-Hua | 0 | A- |
-| Japanese (III) | KAMIJO Sumie | 2 | A+ |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Calculus A (II) | Yuki CHINO | 千野由喜 | 4 | A+ |
+| Physics (II) | LIN Chun-Liang | 林俊良 | 4 | B |
+| Discrete Mathematics | WENG Chih-wen | 翁志文 | 3 | A- |
+| Introduction to Computer Science (II) | CHEN Chiuyuan | 陳秋媛 | 3 | A+ |
+| Introduction to Scientific Research and Implementation (II) | *Interdisciplinary Science Degree Program* | *理學院科學學士學位學程* | 3 | A+ |
+| Linear Algebra (II) | SHIUE Ming-Cheng | 薛名成 | 3 | A |
+| Mentor’s Hours | *Department of Applied Mathematics* | *應用數學系* | 1 | P |
+| Service Learning II | *Department of Applied Mathematics* | *應用數學系* | 1 | A |
+| Physics Recitation (II) | LIN Chun-Liang | 林俊良 | 0 | P |
+| Physical Education | CHANG Yu-Hua | 張祐華 | 0 | A- |
+| Japanese (III) | KAMIJO Sumie | 上條純惠 | 2 | A+ |
 
 Took 24 credits this semester. Felt more tired than last semester. This was probably the last time I'd take more than 20 credits in a single semester.
 
@@ -160,14 +160,14 @@ More vocabulary and dialogue. Small class size, so the teacher knows everyone.
 
 I took 15 credits this semester. My GPA was 3.69.
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Introduction to Analysis (I), Honor Class | WANG Kuo-Zhong | 4 | B |
-| Differential Equations | LIN Te-Sheng | 3 | A |
-| Microeconomics | HUANG Hsin-Hua | 3 | A+ |
-| Probability Theory | HUANG Hsin-Yuan | 3 | A- |
-| Vector Calculus | Yuki CHINO | 2 | A- |
-| Softball | HUANG Shan-Ying | 0 | A+ |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Introduction to Analysis (I), Honor Class | WANG Kuo-Zhong | 王國仲 | 4 | B |
+| Differential Equations | LIN Te-Sheng | 林得勝 | 3 | A |
+| Microeconomics | HUANG Hsing-Hua | 黃星華 | 3 | A+ |
+| Probability Theory | HUANG Hsin-Yuan | 黃信元 | 3 | A- |
+| Vector Calculus | Yuki CHINO | 千野由喜 | 2 | A- |
+| Softball | HUANG Shan-Ying | 黃杉楹 | 0 | A+ |
 
 Surprisingly, these 15 credits felt heavier than the 27 credits I took in my first semester.
 
@@ -203,15 +203,15 @@ Attendance 40%. Full attendance equals a pass.
 
 I took 17 credits this semester. My GPA was 3.98.
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Introduction to Analysis (II), Honor Class | WANG Kuo-Zhong | 4 | B+ |
-| Softball | HUANG Shan-Ying | 0 | A |
-| Management | HSIAO Chan | 3 | A+ |
-| Statistics | WANG Hsiuying | 3 | A |
-| Computational Mathematics | WU Chin-Tien | 3 | A+ |
-| Introduction to Data Science: Concepts & Practice | CHEN Chang-Sheng | 2 | A+ |
-| Data and Everyday Life | PERNG Sung-Yueh | 2 | A |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Introduction to Analysis (II), Honor Class | WANG Kuo-Zhong | 王國仲 | 4 | B+ |
+| Softball | HUANG Shan-Ying | 黃杉楹 | 0 | A |
+| Management | HSIAO Chan | 蕭嬋 | 3 | A+ |
+| Statistics | WANG Hsiuying | 王秀瑛 | 3 | A |
+| Computational Mathematics | WU Chin-Tien | 吳金典 | 3 | A+ |
+| Introduction to Data Science: Concepts & Practice | CHEN Chang-Sheng | 陳昌盛 | 2 | A+ |
+| Data and Everyday Life | PERNG Sung-Yueh | 彭松嶽 | 2 | A |
 
 15 credits again, still a heavy burden.
 
@@ -307,26 +307,26 @@ Approximately 30 students share a large indoor facility (comprising eight badmin
 
 ## 2025 Summer
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Accounting (I) | TSAI Bi-Huei | 3 | A+ |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Accounting (I) | TSAI Bi-Huei | 蔡璧徽 | 3 | A+ |
 
 ### Accounting (I)
 Typical of Professor TSAI's courses, the workload is manageable with minimal homework. Examination questions are disclosed in advance, and attendance is emphasized.
 
 ## 2025 Fall
 
-I took 18 credits this semester. My GPA was 4.00.
+I took 18 credits this semester. My GPA was 4.05.
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Algebra (I) | KANG Ming-Hsuan | 3 | A |
-| Softball | HUANG Shan-Ying | 0 |  |
-| Directed Individual Study (I) | Yuki CHINO | 3 | A+ |
-| Advanced Statistics | WANG Hsiuying | 3 | A- |
-| Machine Learning | LIN Te-Sheng | 3 | A+ |
-| Financial Management | TSAI Bi-Huei | 3 | A |
-| Futures and Options | LEE Han-Hsing | 3 | A- |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Algebra (I) | KANG Ming-Hsuan | 康明軒 | 3 | A |
+| Softball | HUANG Shan-Ying | 黃杉楹 | 0 | A+ |
+| Directed Individual Study (I) | Yuki CHINO | 千野由喜 | 3 | A+ |
+| Advanced Statistics | WANG Hsiuying | 王秀瑛 | 3 | A- |
+| Machine Learning | LIN Te-Sheng | 林得勝 | 3 | A+ |
+| Financial Management | TSAI Bi-Huei | 蔡璧徽 | 3 | A+ |
+| Futures and Options | LEE Han-Hsing | 李漢星 | 3 | A- |
 
 ### Algebra (I)
 Special acknowledgement is due to the Teaching Assistant for the recitation sessions; his support was invaluable.
@@ -365,11 +365,11 @@ The instructor, holding a bachelor's degree in mathematics, demonstrated remarka
 
 I will take 9 credits this semester.
 
-| Course Name | Teacher | Credits | Score |
-| --- | --- | :---: | :---: |
-| Survival Analysis | CHENG Yu-Jen | 3 |  |
-| Python and Machine Learning Algorithms | LIN Chin-Hung | 3 |  |
-| Time Series | KAO Chu-Lan | 3 |  |
+| Course Name | Teacher | 老師 | Credits | Score |
+| --- | --- | --- | :---: | :---: |
+| Survival Analysis | CHENG Yu-Jen | 鄭又仁 | 3 |  |
+| Python and Machine Learning Algorithms | LIN Chin-Hung | 林晉宏 | 3 |  |
+| Time Series | KAO Chu-Lan | 高竹嵐 | 3 |  |
 
 ### Survival Analysis
 
