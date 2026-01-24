@@ -1,7 +1,7 @@
 #let quad = ($space space space space$)
 #let qquad = ($quad quad$)
 
-#let typst = box(baseline: 33.333%, image("typst.svg", height: 0.9em))
+#let typst = box(image("typst.svg", height: 0.9em), inset: (bottom: -0.265em))
 #let LaTeX = {
   set text(font: "New Computer Modern")
   let t = "T"
@@ -19,13 +19,20 @@
 }
 
 #let section-block(title, content) = [
-  #h(0.3em)
+  #h(0.2em)
   #grid(
     columns: (2fr, 11fr),
     align: (left + top, left + top),
-    [#set par(spacing: 0.65em, leading: 0.7em); #set text(fill: rgb("#3C8031"), weight: 700, font: "Libertinus Serif"); #secret_heading[#smallcaps[#title]]], [#set par(spacing: 0.9em, leading: 0.9em); #content]
+    [
+      #set par(spacing: 0.65em, leading: 0.7em)
+      #set text(fill: rgb("#3C8031"), weight: 700, font: "Libertinus Serif")
+      #secret_heading[#smallcaps[#title]]
+    ], [
+      #set par(spacing: 0.9em, leading: 0.9em)
+      #content
+    ]
   )
-  #h(0.3em)
+  #h(0.2em)
 ]
 
 #let hide_and_seek(cv, content) = {
@@ -34,7 +41,7 @@
   }
 }
 
-#let typesetting(name, content) = [
+#let typesetting(name, type: "CV", content) = [
   #set page(margin: (x: 2cm, y: 2.4cm), numbering: "1  of  1")
   #set text(10pt, hyphenate: true, font: "Libertinus Serif")
   #set par(justify: true)
@@ -47,19 +54,29 @@
     set text(fill: blue)
     it
   }
+  #v(-1.5em)
+  #if type == "CV" [
+    #grid(
+      columns: (3fr, 1fr),
+      align: (left + bottom, right + bottom),
+      text(24pt)[#name],
+      text(7.5pt)[_Updated on #datetime.today().display("[month repr:long] [day padding:none], [year]")_],
+    )
+    
+    #v(1.2em)
 
-  #grid(
-    columns: (3fr, 1fr),
-    align: (left + bottom, right + bottom),
-    text(24pt)[#name],
-    text(7.5pt)[_Updated on #datetime.today().display("[month repr:long] [day padding:none], [year]")_],
-  )
-  
-  #v(1.2em)
+    *Email*: #link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*] #qquad #link("www.linkedin.com/in/eiken59")[*LinkedIn*] #qquad #link("https://eiken59.github.io")[*My Website*] #h(1fr) #text(7.5pt)[#link("https://eiken59.github.io/eiken59_CV.pdf")[_Latest version of my CV_]]
 
-  *Email*: #link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*] #qquad #link("www.linkedin.com/in/eiken59")[*LinkedIn*] #qquad #link("https://eiken59.github.io")[*My Website*] #h(1fr) #text(7.5pt)[#link("https://eiken59.github.io/eiken59_CV.pdf")[_Latest version of my CV_]]
-
-  #v(-0.2em)
+    #v(-0.2em)
+  ] else [
+    #grid(
+      columns: (4fr, 1fr, 2.75fr),
+      align: (left + bottom, center + bottom, right + bottom),
+      text(24pt)[#name],
+      link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*],
+      text(7.5pt)[#link("https://eiken59.github.io/eiken59_CV.pdf")[_Updated on #datetime.today().display("[month repr:long] [day padding:none], [year]")_]],
+    )
+  ]
   
   #content
 ]
