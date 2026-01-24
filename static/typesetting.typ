@@ -19,7 +19,7 @@
 }
 
 #let section-block(title, content) = [
-  #h(0.2em)
+  #v(2em)
   #grid(
     columns: (2fr, 11fr),
     align: (left + top, left + top),
@@ -32,7 +32,6 @@
       #content
     ]
   )
-  #h(0.2em)
 ]
 
 #let hide_and_seek(cv, content) = {
@@ -66,8 +65,6 @@
     #v(1.2em)
 
     *Email*: #link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*] #qquad #link("www.linkedin.com/in/eiken59")[*LinkedIn*] #qquad #link("https://eiken59.github.io")[*My Website*] #h(1fr) #text(7.5pt)[#link("https://eiken59.github.io/eiken59_CV.pdf")[_Latest version of my CV_]]
-
-    #v(-0.2em)
   ] else [
     #grid(
       columns: (4fr, 1fr, 2.75fr),
@@ -76,6 +73,7 @@
       link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*],
       text(7.5pt)[#link("https://eiken59.github.io/eiken59_CV.pdf")[_Updated on #datetime.today().display("[month repr:long] [day padding:none], [year]")_]],
     )
+    #v(0.8em)
   ]
   
   #content
