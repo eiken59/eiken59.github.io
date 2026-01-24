@@ -47,9 +47,8 @@
 
         National Yang Ming Chiao Tung University & the Ministry of Education
 
-        #explanation[
-          For my exchange program at École polytechnique in France.
-        ]
+        For my exchange program at École polytechnique in France.
+        
 
         #linebreak()
 
@@ -57,9 +56,8 @@
 
         Department of Applied Mathematics, National Yang Ming Chiao Tung University
 
-        #explanation[
-          For my academic performance in applied mathematics in my first year of undergraduate study.
-        ]]
+        For my academic performance in applied mathematics in my first year of undergraduate study.
+        ]
 
         #linebreak()
 
@@ -116,7 +114,7 @@
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         
         #explanation[
-          Developed a supervised machine learning pipeline to detect credit card default using real-world data with feature importance analysis and evaluation metrics. See this #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
+          Developed a supervised machine learning pipeline to detect credit card default using real-world data with feature importance analysis and evaluation metrics. See my #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
         ]
 
         #linebreak()
@@ -135,9 +133,8 @@
 
         #link("https://teshenglin.github.io/courses/2024_summer_research/")[Summer Research], Department of Applied Mathematics, National Yang Ming Chiao Tung University
         
-        #explanation[
-          Discussed #link("https://hackmd.io/@eiken-sc11/B1QcaW3B0")[topics] on the gambler's ruin problem in a discrete setting and martingales in a measure-theoretic setting under Prof. Yuki CHINO.
-        ]]
+        Discussed #link("https://hackmd.io/@eiken-sc11/B1QcaW3B0")[topics] on the gambler's ruin problem in a discrete setting and martingales in a measure-theoretic setting under Prof. Yuki CHINO.
+        ]
       ],
     )
 
@@ -156,15 +153,13 @@
         
         Office of International Affairs, National Yang Ming Chiao Tung University
         
-        #explanation[Collaborated with other student staff members to plan and lead a two-week program for coding and language immersion for Japanese university students.]
+        Collaborated with other student staff members to plan and lead a two-week program for coding and language immersion for Japanese university students.
 
         #linebreak()
 
         *Private Tutor* #h(1fr) September 2024 -- June 2025 #h(1.5pt) & #h(1.5pt) April 2023 -- June 2023 
         
-        #explanation[
-          Tutored students with customized handouts.
-        ]
+        Tutored students with customized handouts.
 
         #linebreak()
 
@@ -172,9 +167,8 @@
         
         Department of Applied Mathematics, National Yang Ming Chiao Tung University  
         
-        #explanation[
-          Conducted office hours and marked exams for #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[(II)] under Prof. Yuki CHINO.
-        ]]
+        Conducted office hours and marked exams for #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[(II)] under Prof. Yuki CHINO.
+        ]
 
         #linebreak()
 
@@ -183,7 +177,7 @@
         Center of Teaching and Learning Development, National Yang Ming Chiao Tung University  
         
         #explanation[
-          Tutored international students in Calculus A, conducting weekly sessions with customized #link("https://github.com/eiken59/2024_II_Tutor")[handouts].
+          Tutored overseas students in Calculus A and conducted weekly sessions with customized #link("https://github.com/eiken59/2024_II_Tutor")[handouts].
         ]
       ]
     )

@@ -1,7 +1,7 @@
 #let quad = ($space space space space$)
 #let qquad = ($quad quad$)
 
-#let typst = box(image("typst.svg", height: 0.9em), inset: (bottom: -0.265em))
+#let typst = box(image("typst.svg", height: 0.9em), inset: (bottom: -0.285em))
 #let LaTeX = {
   set text(font: "New Computer Modern")
   let t = "T"
@@ -19,7 +19,7 @@
 }
 
 #let section-block(title, content) = [
-  #v(2em)
+  #v(1.8em)
   #grid(
     columns: (2fr, 11fr),
     align: (left + top, left + top),
@@ -73,7 +73,7 @@
       link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*],
       text(7.5pt)[#link("https://eiken59.github.io/eiken59_CV.pdf")[_Updated on #datetime.today().display("[month repr:long] [day padding:none], [year]")_]],
     )
-    #v(0.8em)
+    #v(0.4em)
   ]
   
   #content
