@@ -82,7 +82,7 @@
 
         #linebreak()
 
-        / Certificates: SOA Exam P #explanation("(July 2025)") and Exam FM#explanation(" (December 2025, preliminary pass)").
+        / Certificates: SOA Exam P #explanation("(July 2025)") and Exam FM#explanation(" (December 2025)").
       ],
     )
 
