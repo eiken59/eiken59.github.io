@@ -1,4 +1,5 @@
 #import "typesetting.typ": *
+#import emoji: *
 
 #let cv_content(is_cv: true) = {
   let explanation(content) = hide_and_seek(is_cv, content)
@@ -99,9 +100,9 @@
 
         #linebreak()
 
-        *The Gambler's Ruin Problem for One-Dimensional* #h(1fr) September 2025 -- December 2025 \ #qquad *Random Walks: Simple Symmetric Random Walk and Some Extensions* #h(1fr)
+        *The Gambler's Ruin Problem for One-Dimensional* #h(1fr) September 2025 -- December 2025 \ #qquad *Random Walks: Simple Symmetric Random Walk and Some Extensions*
         
-        Semester-long Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
+        Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University #h(1fr) #inverseexplanation[#link("https://eiken59.github.io/dis_poster.pdf")[#page.curl]]
         
         #explanation[
           Studied the gambler's ruin problem in a more general setting with the book #link("https://www.math.uchicago.edu/~lawler/srwbook.pdf")[_Random Walk: A Modern Introduction_] by G. F. Lawler and V. Limic, supervised by Prof. Yuki CHINO. See my #link("https://eiken59.github.io/dis_poster.pdf")[poster].
@@ -111,7 +112,7 @@
 
         *Credit Card Default Detection Using Machine Learning* #h(1fr) February 2025 -- June 2025
 
-        Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
+        Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique #h(1fr) #inverseexplanation[#link("https://github.com/eiken59/ml_project/blob/main/README.md")[#folder]]
         
         #explanation[
           Developed a supervised machine learning pipeline to detect credit card default using real-world data with feature importance analysis and evaluation metrics. See my #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
@@ -121,7 +122,7 @@
 
         *Chessbot Project: Cagnus* #h(1fr) November 2024 -- January 2025
 
-        Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/32/CSC-2F001-EP-object-oriented-programming-in-c?from=D12")[Object-oriented Programming in C++], École polytechnique  
+        Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/32/CSC-2F001-EP-object-oriented-programming-in-c?from=D12")[Object-oriented Programming in C++], École polytechnique #h(1fr) #inverseexplanation[#link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[#folder]]
         
         #explanation[
           Built a pure C++ chess engine without any non-standard libraries, achieving a final cross-match ranking of 9th out of 26 in the class. See this #link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[repository].
