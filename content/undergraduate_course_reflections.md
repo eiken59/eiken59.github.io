@@ -28,7 +28,7 @@ I took 27 credits this semester. My GPA was 4.09.
 | Mentor’s Hours | *Department of Applied Mathematics* | *應用數學系* | 1 | P |
 | Service Learning I | *Department of Applied Mathematics* | *應用數學系* | 1 | P |
 | Basic Mathematics | WENG Chih-wen | 翁志文 | 3 | A |
-| Honor Calculus Problem Solving Session (I) | CHAN Chi-Hin | 陳子軒 | 1 | A |
+| Honor Calculus Problem Solving Session (I) | CHAN Chi Hin | 陳子軒 | 1 | A |
 | Physics Recitation (I) | LIN Chun-Liang | 林俊良 | 0 | P |
 | Physical Education | CHANG Yu-Hua | 張祐華 | 0 | A- |
 | English Communication | KWONG Yuemin | 鄺越敏 | 2 | A+ |
@@ -248,7 +248,7 @@ I didn't go to class much. Excel formulas are key.
 ### Softball
 Attendance 40%. Full attendance equals a pass.
 
-## 2024 Fall (exchange at X)
+## 2024 Fall (exchange at École polytechnique)
 
 I took 16 ECTS this semester.
 
@@ -264,7 +264,7 @@ I took 16 ECTS this semester.
 The course curriculum is meticulously designed, requiring minimal coursework aside from a capstone project—for which ample class time is allocated. It provides a comprehensive introduction to `NumPy`, `SymPy`, and `SciPy`. The instructor possesses a sharp intellect and a distinctive, mathematician-centric sense of humor.
 
 ### Object-oriented Programming
-I was surprised to find that BX students commence their C++ journey with this course. At NYCU, Object-Oriented Programming succeeds Introduction to Computer Science, presupposing familiarity with C++. Having acquired most of the foundational concepts during my freshman year under Professor CHEN, I found the curriculum familiar. The final project, involving the development of a chess bot, was engaging. I must acknowledge the substantial contribution of Jetz, a BX student, who played a pivotal role in our success.
+I was surprised to find that BX students commence their `C++` journey with this course. At NYCU, Object-Oriented Programming succeeds Introduction to Computer Science, presupposing familiarity with `C++`. Having acquired most of the foundational concepts during my freshman year under Professor CHEN, I found the curriculum familiar. The final project, involving the development of a chess bot, was engaging. I must acknowledge the substantial contribution of Jetz, a BX student, who played a pivotal role in our success.
 
 ### Macroeconomics
 This course proved to be my academic nadir in France. Lacking prerequisite coursework in economics, I found the material unexpectedly rigorous. While the fundamental concepts initially appeared straightforward—and the instructors elucidated them with clarity—translating that understanding into successful examination responses proved elusive. Perhaps this inscrutability is the very essence of economics.
@@ -276,7 +276,7 @@ The instructor was exceptionally amiable, cultivating a remarkably relaxed atmos
 ### Sports - Year 2 (Climbing)
 Attendance alone suffices for a passing grade, irrespective of active participation. However, I found the climbing itself genuinely compelling. It also served as an excellent venue for practicing French conversation, despite the instructor's proficiency in English. I learned the colloquialism "avoir les bouteilles" (referring to the sensation of having forearms as hard as bottles), describing the muscle pump experienced after intense exertion.
 
-## 2025 Spring (exchange at X)
+## 2025 Spring (exchange at École polytechnique)
 
 I took 16 ECTS this semester.
 
@@ -295,7 +295,7 @@ This course stands as the zenith of my academic experience thus far. Initially, 
 A standard Machine Learning curriculum utilizing `Python`. The final project is relatively low-stress, requiring a presentation of slides and interpretation of results rather than a detailed code review.
 
 ### Econometrics
-Whether due to my background in Applied Mathematics or otherwise, I found the content quite accessible. The first three-quarters of the semester focused on OLS, followed by introductions to panel data, cross-sectional data, and time series analysis. The practical sessions (TDs)—with special acknowledgement to TA PIERRE—and R assignments were incredibly beneficial, provided one followed the instructions rigorously.
+Whether due to my background in Applied Mathematics or otherwise, I found the content quite accessible. The first three-quarters of the semester focused on OLS, followed by introductions to panel data, cross-sectional data, and time series analysis. The practical sessions (TDs)—with special acknowledgement to our Teaching Assistant PIERRE—and R assignments were incredibly beneficial, provided one followed the instructions rigorously.
 
 While the latter part of the semester covered a broad spectrum of topics, the examination focused primarily on conceptual understanding, which was both fair and appropriate.
 
@@ -339,7 +339,7 @@ The course content is rigorous, and the pedagogical style strikes a balance betw
 Attendance constitutes 40% of the grade. Full attendance guarantees a passing grade.
 
 ### Directed Individual Study (I)
-I conducted research on the gambler's ruin problem this semester, utilizing the text by Lawler and Limic. Following the presentation within my home department, I was invited to present at NTHU, where I was honored with the Best Presentation Award.
+I conducted research on the gambler's ruin problem this semester, utilizing the text by Lawler and Limic. Following the presentation within my home department, I was invited to present at NTNU, where I was honored with the Best Presentation Award.
 
 ### Advanced Statistics
 The pacing is leisurely, with a relatively light curriculum coverage.
@@ -363,7 +363,7 @@ The instructor, holding a bachelor's degree in mathematics, demonstrated remarka
 
 ## 2026 Spring
 
-I will take 9 credits this semester.
+I will take 9 credits this semester. They are all graduate level courses. Notably, the course Survival Analysis is opened by the Institute of Statistics, National Tsing Hua University.
 
 | Course Name | Teacher | 老師 | Credits | Score |
 | --- | --- | --- | :---: | :---: |
