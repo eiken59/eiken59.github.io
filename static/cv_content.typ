@@ -83,7 +83,7 @@
 
         #linebreak()
 
-        / Certificates: SOA Exam P #explanation("(July 2025)") and Exam FM#explanation(" (December 2025)").
+        / Certificates: SOA Exam P #explanation("(July 2025)"), Exam FM#explanation(" (December 2025)"), and VEE credits in Mathematical Statistics and Accounting & Finance.
       ],
     )
 
