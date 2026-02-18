@@ -363,7 +363,7 @@ The instructor, holding a bachelor's degree in mathematics, demonstrated remarka
 
 ## 2026 Spring
 
-I will take 9 credits this semester. They are all graduate level courses. Notably, the course Survival Analysis is opened by the Institute of Statistics, National Tsing Hua University.
+I will take 9 credits this semester. They are all graduate level courses. Notably, the course Survival Analysis is opened by the Institute of Statistics and Data Science, National Tsing Hua University.
 
 | Course Name | Teacher | 老師 | Credits | Score |
 | --- | --- | --- | :---: | :---: |
