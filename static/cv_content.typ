@@ -53,7 +53,7 @@
 
         #linebreak()
 
-        *Mathematics Presidential Award* #h(1fr) September 2023 & February 2023
+        *Mathematics Presidential Award* #h(1fr) September 2023 #h(1.5pt) & #h(1.5pt) February 2023
 
         Department of Applied Mathematics, National Yang Ming Chiao Tung University
 
@@ -83,7 +83,7 @@
 
         #linebreak()
 
-        / Certificates: SOA Exam P #explanation("(July 2025)"), Exam FM#explanation(" (December 2025)"), and VEE credits in Mathematical Statistics and Accounting & Finance.
+        / ASA Courses: Exam P#explanation(" (July 2025)"), Exam FM#explanation(" (December 2025)"), VEE Mathematical Statistics, and VEE Accounting & Finance.
       ],
     )
 
