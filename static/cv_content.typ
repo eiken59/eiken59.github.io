@@ -134,7 +134,7 @@
 
         #link("https://teshenglin.github.io/courses/2024_summer_research/")[Summer Research], Department of Applied Mathematics, National Yang Ming Chiao Tung University
         
-        Discussed #link("https://hackmd.io/@eiken-sc11/B1QcaW3B0")[topics] on the gambler's ruin problem in a discrete setting and martingales in a measure-theoretic setting under Prof. Yuki CHINO.
+        Discussed #link("https://hackmd.io/@eiken-sc11/B1QcaW3B0")[topics] on the gambler's ruin problem in a discrete setting and martingales in a measure-theoretic setting, supervised by Prof. Yuki CHINO.
         ]
       ],
     )
