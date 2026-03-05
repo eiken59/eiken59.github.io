@@ -90,7 +90,7 @@
     #section-block(
       [Projects],
       [ 
-        *Study of Hitting Time for Simple Random Walks in* #h(1fr) July 2025 -- February 2026 \ #qquad *One and Two Dimensions*
+        *Study of Hitting Time for Simple* #h(1fr) July 2025 -- February 2026 \ #qquad *Random Walks in One and Two Dimensions*
 
         Research Project, College Student Research Scholarship, #link("https://www.nstc.gov.tw/?l=en")[National Science and Technology Council]
         
@@ -142,11 +142,11 @@
     #section-block(
       [Work \ Experience],
       [
-        *Teaching Assistant* #h(1fr) September 2025 -- December 2025 #inverseexplanation[#h(1.5pt) & #h(1.5pt) September 2023 -- June 2024]
+        *Teaching Assistant* #h(1fr) September 2025 -- June 2026 #inverseexplanation[#h(1.5pt) & #h(1.5pt) September 2023 -- June 2024]
         
         Department of Applied Mathematics, National Yang Ming Chiao Tung University  
         
-        #explanation[Marked homework and exams for #link("https://reurl.cc/qYaYr3")[Probability Theory] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=149&SC_ID=1")[FANG Xiang].]
+        #explanation[Marked homework and exams for #link("https://reurl.cc/qYaYr3")[Probability Theory] and #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=2&CrsNo=564018&lang=en-us")[Calculus A (II)] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=149&SC_ID=1")[FANG Xiang].]
 
         #explanation[#linebreak()
 
