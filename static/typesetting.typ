@@ -71,7 +71,7 @@
       align: (left + bottom, center + bottom, right + bottom),
       text(24pt)[#name],
       link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*],
-      text(7.5pt)[#link("https://eiken59.github.io/eiken59_resume.pdf")[_Updated on #datetime.today().display("[month repr:long] [day padding:none], [year]")_]],
+      text(7.5pt)[#link("https://eiken59.github.io/")[https://eiken59.github.io/]],
     )
     #v(0.4em)
   ]

@@ -90,12 +90,12 @@
     #section-block(
       [Projects],
       [ 
-        *Study of Hitting Time and Probability* #h(1fr) July 2025 -- February 2026 \ #qquad *for Random Walks in One and Two Dimensions*
+        *Study of Hitting Time for Simple Random Walks in* #h(1fr) July 2025 -- February 2026 \ #qquad *One and Two Dimensions*
 
         Research Project, College Student Research Scholarship, #link("https://www.nstc.gov.tw/?l=en")[National Science and Technology Council]
         
         #explanation[
-          Studying the hitting time and probability of simple random walks in one and two dimensions, supervised by Prof. #link("https://scholar.nycu.edu.tw/en/persons/yuki-chino")[Yuki CHINO]. Funded by the National Science and Technology Council with project number 114-2813-C-A49-139-M.
+          Studying the hitting time distribution and expected hitting time of simple random walks with specific boundaries in one and two dimensions, supervised by Prof. #link("https://scholar.nycu.edu.tw/en/persons/yuki-chino")[Yuki CHINO]. Funded by the National Science and Technology Council with project number 114-2813-C-A49-139-M.
         ]
 
         #linebreak()
