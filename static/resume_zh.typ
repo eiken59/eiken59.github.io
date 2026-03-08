@@ -1,4 +1,4 @@
-﻿#set page(margin: (x: 2cm, y: 2cm), numbering: "第 1 頁，共 1 頁")
+﻿#set page(margin: (x: 1.75cm, y: 1.75cm), numbering: "第 1 頁，共 1 頁")
 #set text(10pt, font: ("Noto Sans TC", "Segoe UI Emoji"))
 // 調整更緊湊的行距
 #set par(justify: true, leading: 0.55em, spacing: 0.7em)
@@ -26,11 +26,11 @@
 
 #v(-1em)
 #grid(
-  columns: (2.5fr, 1fr, 3fr, 2.75fr),
+  columns: (2fr, 1.5fr, 3fr, 2.25fr),
   align: (left + bottom, center + bottom, center + bottom, right + bottom),
   text(22pt, weight: "bold")[張永璿],
   link("mailto:eiken59@icloud.com")[*eiken59\@icloud.com*],
-  [0916-969-330],
+  [+886-916-969-330],
   text(8.5pt)[#link("https://eiken59.github.io/")[https://eiken59.github.io/]],
 )
 #line(length: 100%, stroke: 0.5pt + gray)
@@ -100,7 +100,9 @@
 
     國立陽明交通大學應用數學系專題研究（一） #h(1fr) 指導教授：千野由喜老師
 
-    - 研究賭徒破產問題中賭徒的獲勝機率。在簡單對稱隨機漫步中，獲勝機率具明確的解析解（即初始資金與目標資金之比）。本專題進一步探討「有限步長」及「有限變異數」的非簡單對稱情形；即使在無解析解的情況下，其獲勝機率仍與該資金比例存在線性界限（linear scaling）的關係。
+    - 研究賭徒破產問題中賭徒的獲勝機率。在簡單對稱隨機漫步中，獲勝機率具明確的解析解（初始資金 $x$ 與目標資金 $r$ 之比 $x\/r$）。本專題探討「有限步長」及「有限變異數」等兩類非簡單對稱延伸；結果指出，即使此類情形不具封閉形式（closed-form）解析解，其獲勝機率仍與 $x\/r$ 維持漸近等價（asymptotically equivalent）的線性縮放關係 $\u{224D} (x + 1)\/r$。
+    
+      　　應數系專題研究成果發表會*表現優異*、2025校際應用數學學生研討會*最佳簡報獎*。
 
     #v(0.4em)
     *#link("https://github.com/eiken59/ml_project")[基於機器學習之信用卡違約偵測]* #h(1fr) 2025 年 2 月 -- 2025 年 6 月
