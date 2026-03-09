@@ -106,7 +106,7 @@
 
         #v(1.0em)
 
-        *Credit Card Default Detection Using Machine Learning* #inverseexplanation[#link("https://github.com/eiken59/ml_project/blob/main/README.md")[#folder]] #h(1fr) February 2025 -- June 2025
+        #link("https://github.com/eiken59/ml_project/blob/main/README.md")[*Credit Card Default Detection Using Machine Learning*] #h(1fr) February 2025 -- June 2025
 
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         
@@ -116,7 +116,7 @@
 
         #v(1.0em)
 
-        *Chessbot Project: Cagnus* #inverseexplanation[#link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[#folder]] #h(1fr) November 2024 -- January 2025
+        #link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[*Chessbot Project: Cagnus*] #h(1fr) November 2024 -- January 2025
 
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/32/CSC-2F001-EP-object-oriented-programming-in-c?from=D12")[Object-oriented Programming], École polytechnique
         
