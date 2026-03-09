@@ -101,7 +101,7 @@
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
         #explanation[
-          Analyzed the gambler's ruin problem based on #link("https://www.math.uchicago.edu/~lawler/srwbook.pdf")[Lawler \& Limic]. Verified the exact linear solution $x\/r$ for simple symmetric walks and demonstrated similar scaling $\u{224D}(x + 1)\/r$ for finite-step and finite-variance extensions. Won *Best Project* at the Departmental Directed Study Presentation and *Best Presentation* at the 2025 Inter-University Student Conference on Applied Mathematics. Supervised by Prof. Yuki CHINO.
+          Analyzed the gambler's ruin problem based on #link("https://www.math.uchicago.edu/~lawler/srwbook.pdf")[_Random Walk: A Modern Introduction_] by G. Lawler \& V. Limic. Verified the exact linear solution $x\/r$ for simple symmetric walks and demonstrated similar scaling $\u{224D}(x + 1)\/r$ for finite-step and finite-variance extensions. Won *Best Project* at the Departmental Directed Study Presentation and *Best Presentation* at the 2025 Inter-University Student Conference on Applied Mathematics. Supervised by Prof. Yuki CHINO.
         ]
 
         #v(1.0em)
@@ -111,7 +111,7 @@
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         
         #explanation[
-          Built a supervised learning pipeline for credit card default detection. Demonstrated via F1-score that interpretable models (decision tree, logistic regression) performed comparably to XGBoost. Details in #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
+          Built a supervised learning pipeline for credit card default detection. Prioritized F1-score in evaluation due to imbalanced dataset. Demonstrated that interpretable models (decision tree, logistic regression) performed comparably to XGBoost. Details in #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
         ]
 
         #v(1.0em)
