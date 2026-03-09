@@ -13,7 +13,7 @@
 
         Bachelor of Science in Applied Mathematics #h(1fr) August 2022 -- June 2026
 
-        #linebreak()
+        #v(1.0em)
 
         #link("https://www.polytechnique.edu")[*École polytechnique*] #h(1fr) Palaiseau, France
 
@@ -32,7 +32,7 @@
           Selected as one of the 30 recipients in the translation competition for Japanese-to-English translation.
         ]
 
-        #linebreak()
+        #v(1.0em)
 
         *College of Science Dean Award* #h(1fr) October 2025
         
@@ -42,7 +42,7 @@
           For ranking in the top 10% of the department in my first three years of undergraduate study.
         ]
 
-        #explanation[#linebreak()
+        #explanation[#v(1.0em)
 
         *Outstanding Student Overseas Exchange Scholarship* #h(1fr) June 2024
 
@@ -51,7 +51,7 @@
         For my exchange program at École polytechnique in France.
         
 
-        #linebreak()
+        #v(1.0em)
 
         *Mathematics Presidential Award* #h(1fr) September 2023 #h(1.5pt) & #h(1.5pt) February 2023
 
@@ -60,7 +60,7 @@
         For my academic performance in applied mathematics in my first year of undergraduate study.
         ]
 
-        #linebreak()
+        #v(1.0em)
 
         *Honor Student* #h(1fr) May 2023
 
@@ -77,11 +77,7 @@
       [
         / Programming: Python, C++, and R; #LaTeX and #typst.
 
-        #linebreak()
-
         / Languages: Mandarin, English#explanation(" (CEFR C1)"), Japanese#explanation(" (JLPT N2)"), and French#explanation(" (roughly CEFR B1)").
-
-        #linebreak()
 
         / ASA Courses: Exam P#explanation(" (July 2025)"), Exam FM#explanation(" (December 2025)"), VEE Mathematical Statistics, and VEE Accounting & Finance.
       ],
@@ -95,46 +91,46 @@
         Research Project, College Student Research Scholarship, #link("https://www.nstc.gov.tw/?l=en")[National Science and Technology Council]
         
         #explanation[
-          Studying the hitting time distribution and expected hitting time of simple random walks with specific boundaries in one and two dimensions, supervised by Prof. #link("https://scholar.nycu.edu.tw/en/persons/yuki-chino")[Yuki CHINO]. Funded by the National Science and Technology Council with project number 114-2813-C-A49-139-M.
+          Analyzed hitting time distributions and expectations for simple random walks. Investigated one-dimensional cases and reduced specific two-dimensional linear-boundary problems to one dimension. Established an $N^2$ scaling for expected hitting times in bounded domains, demonstrating that the coefficients correspond to torsional rigidity in beam theory. Supported by the National Science and Technology Council (114-2813-C-A49-139-M) and supervised by Prof. #link("https://scholar.nycu.edu.tw/en/persons/yuki-chino")[Yuki CHINO].
         ]
 
-        #linebreak()
+        #v(1.0em)
 
-        *The Gambler's Ruin Problem for One-Dimensional* #h(1fr) September 2025 -- December 2025 \ #qquad *Random Walks: Simple Symmetric Random Walk and Some Extensions* #inverseexplanation[#link("https://eiken59.github.io/dis_poster.pdf")[#page.curl]]
+        #link("https://eiken59.github.io/dis_poster.pdf")[*The Gambler's Ruin Problem for One-Dimensional*] #h(1fr) September 2025 -- December 2025 \ #qquad #link("https://eiken59.github.io/dis_poster.pdf")[*Random Walks: Simple Symmetric Random Walk and Some Extensions*]
         
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
         #explanation[
-          Studied the gambler's ruin problem in a more general setting with the book #link("https://www.math.uchicago.edu/~lawler/srwbook.pdf")[_Random Walk: A Modern Introduction_] by G. F. Lawler and V. Limic, supervised by Prof. Yuki CHINO. See my #link("https://eiken59.github.io/dis_poster.pdf")[poster].
+          Analyzed the gambler's ruin problem based on #link("https://www.math.uchicago.edu/~lawler/srwbook.pdf")[Lawler \& Limic]. Verified the exact linear solution $x\/r$ for simple symmetric walks and demonstrated similar scaling $\u{224D}(x + 1)\/r$ for finite-step and finite-variance extensions. Won *Best Project* at the Departmental Directed Study Presentation and *Best Presentation* at the 2025 Inter-University Student Conference on Applied Mathematics. Supervised by Prof. Yuki CHINO.
         ]
 
-        #linebreak()
+        #v(1.0em)
 
         *Credit Card Default Detection Using Machine Learning* #inverseexplanation[#link("https://github.com/eiken59/ml_project/blob/main/README.md")[#folder]] #h(1fr) February 2025 -- June 2025
 
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         
         #explanation[
-          Developed a supervised machine learning pipeline to detect credit card default using real-world data with feature importance analysis and evaluation metrics. See my #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
+          Built a supervised learning pipeline for credit card default detection. Demonstrated via F1-score that interpretable models (decision tree, logistic regression) performed comparably to XGBoost. Details in #link("https://github.com/eiken59/ml_project/blob/main/README.md")[repository].
         ]
 
-        #linebreak()
+        #v(1.0em)
 
         *Chessbot Project: Cagnus* #inverseexplanation[#link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[#folder]] #h(1fr) November 2024 -- January 2025
 
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/32/CSC-2F001-EP-object-oriented-programming-in-c?from=D12")[Object-oriented Programming], École polytechnique
         
         #explanation[
-          Built a pure C++ chess engine without any non-standard libraries, achieving a final cross-match ranking of 9th out of 26 in the class. See this #link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[repository].
+          Developed a standard library-only C++ chess engine using bitboards and minimax. Achieved 9th place out of 26 in the class tournament. Code available in #link("https://github.com/jetzypetz/chess_bot/blob/main/docs/README.md")[repository].
         ]
 
-        #explanation[#linebreak()
+        #explanation[#v(1.0em)
 
-        *Before Finance* #h(1fr) June 2024 -- July 2024
+        #link("https://hackmd.io/@eiken-sc11/B1QcaW3B0")[*Before Finance*] #h(1fr) June 2024 -- July 2024
 
         #link("https://teshenglin.github.io/courses/2024_summer_research/")[Summer Research], Department of Applied Mathematics, National Yang Ming Chiao Tung University
         
-        Discussed #link("https://hackmd.io/@eiken-sc11/B1QcaW3B0")[topics] on the gambler's ruin problem in a discrete setting and martingales in a measure-theoretic setting, supervised by Prof. Yuki CHINO.
+        Analyzed hitting times and probabilities in the gambler's ruin problem for one-dimensional simple random walks; the 0-to-1 distribution was also analyzed. Explored martingale properties within a measure-theoretic framework, inclusing the optional sampling theorem. Supervised by Prof. Yuki CHINO.
         ]
       ],
     )
@@ -148,7 +144,7 @@
         
         #explanation[Marked homework and exams for #link("https://reurl.cc/qYaYr3")[Probability Theory] and #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=2&CrsNo=564018&lang=en-us")[Calculus A (II)] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=149&SC_ID=1")[FANG Xiang].]
 
-        #explanation[#linebreak()
+        #explanation[#v(1.0em)
 
         *Camp Counselor* #h(1fr) August 2025  
         
@@ -156,13 +152,13 @@
         
         Collaborated with other student staff members to plan and lead a two-week program for coding and language immersion for Japanese university students.
 
-        #linebreak()
+        #v(1.0em)
 
         *Private Tutor* #h(1fr) September 2024 -- June 2025 #h(1.5pt) & #h(1.5pt) April 2023 -- June 2023 
         
         Tutored students with customized handouts.
 
-        #linebreak()
+        #v(1.0em)
 
         *Teaching Assistant* #h(1fr) September 2023 -- June 2024
         
@@ -171,7 +167,7 @@
         Conducted office hours and marked exams for #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[(II)] under Prof. Yuki CHINO.
         ]
 
-        #linebreak()
+        #v(1.0em)
 
         *Academic Tutor* #h(1fr) October 2023 -- November 2023 #h(1.5pt) & #h(1.5pt) April 2024 -- May 2024  
         
