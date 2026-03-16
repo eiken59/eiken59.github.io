@@ -1,0 +1,16 @@
+<div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    {{- $iconName := trim .name " " -}}
+    {{- $iconNameLower := lower $iconName -}}
+    {{- $url := trim .url " " | safeURL -}}
+    {{- $label := .title | default $iconName -}}
+    {{- if eq $iconNameLower "email" -}}
+        {{- $label = replace (trim .url " ") "mailto:" "" -}}
+    {{- end -}}
+    <a class="social-icon-item" href="{{ $url }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ (.title | default .name) | title }}">
+        <span class="social-icon-glyph">{{ partial "svg.html" . }}</span>
+        <span class="social-icon-label">{{ $label }}</span>
+    </a>
+    {{- end }}
+</div>

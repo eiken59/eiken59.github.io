@@ -10,3 +10,47 @@
   padding: 0 !important;             /* remove inner spacing that can look like a ring */
   background: transparent !important;/* no background ring */
 }
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-inline: auto;
+}
+
+.social-icons[align="left"] {
+  justify-content: flex-start;
+}
+
+.social-icons[align="center"] {
+  justify-content: space-evenly;
+}
+
+.social-icons[align="right"] {
+  justify-content: flex-end;
+}
+
+.social-icons .social-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 6px;
+}
+
+.social-icons .social-icon-item .social-icon-label {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  max-width: 170px;
+  word-break: break-word;
+}
+
+.social-icons .social-icon-item svg {
+  height: 26px;
+  width: 26px;
+}
