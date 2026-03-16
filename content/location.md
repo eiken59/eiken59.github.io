@@ -3,6 +3,7 @@ title: "Location"
 date: 2024-05-08
 hidemeta: true
 description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
+hiddenInHomeList: true
 
 ---
 

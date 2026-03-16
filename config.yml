@@ -1,4 +1,4 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
+baseURL: "https://eiken59.github.io/"
 title: Yung-Hsuan's Website
 theme: PaperMod
 
@@ -12,24 +12,9 @@ taxonomies:
 
 menu:
     main:
-        # - name: Books
-        #   url: books/
-        #   weight: 5
-        - name: Tutoring Portfolio
-          url: portfolio/
+        - name: Posts
+          url: posts/
           weight: 1
-        - name: 高中學習歷程檔案
-          url: hs_portfolio/
-          weight: 2
-        # - name: Courses
-        #   url: courses/
-        #   weight: 3
-        # - name: Data
-        #   url: data/
-        #   weight: 4 
-        # - name: Blog
-        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-        #   weight: 6
 
 params:
     description: "This website hosts CHANG Yung-Hsuan's curriculum vitae, contact information, and academic backgrounds."
@@ -47,7 +32,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    # MainSections: ["portfolio"]
+    mainSections: ["page"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: false
@@ -64,45 +49,22 @@ params:
           subtitle: |
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan, also known as Eiken, from Hsinchu, Taiwan. I am finishing my undergraduate studies at the Department of Applied Mathematics, National Yang Ming Chiao Tung University and preparing for the next chapter in my life. I will be studying actuarial science in graduate school in the United States. I am also look forward to becoming an FSA before my 30s.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan Chang, also known as Eiken. I am finishing my undergraduate study at National Yang Ming Chiao Tung University with research experience in random walks, as well as experience in tutoring, curriculum design, and mathematical communication.
+
+            &nbsp;
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am preparing for graduate study in actuarial science in the United States and am interested in actuarial, analytical, and other knowledge-intensive roles where I can contribute quantitative training, clear writing, and multilingual communication skills.
 
             &nbsp;
           imageUrl: "pp.png"
           imageWidth: 200
           imageHeight: auto
-          buttons:
-            # - name: Papers
-            #   url: papers/
-            # - name: Data
-            #   url: data/
-            # - name: Books
-            #   url: books/
-            - name: Tutoring Portfolio
-              url: portfolio/
-            - name: 高中學習歷程檔案
-              url: hs_portfolio/
-            - name: Undergraduate Course Reflections
-              url: undergraduate_course_reflections/
-            # - name: Tags
-            #   url: tags/
-            # - name: Archive
-            #   url: archive/
-            # - name: Blog
-            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
           url: eiken59_CV.pdf
         - name: Email
           url: mailto:eiken59@icloud.com
-        # - name: Zoom
-        #   url: https://www.zoom.us/my/igelfeld
-        # - name: Location
-        #   url: location/
-        # - name: Office Hours
-        #   url: officehours/
-        # - name: Google Scholar
-        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
           url: https://github.com/eiken59/
         - name: LinkedIn
@@ -111,10 +73,6 @@ params:
         #   url: https://sites.google.com/view/eiken59/
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
-        # - name: Twitter
-        #   url: https://x.com/pmichaillat
-        # - name: Bluesky
-        #   url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
