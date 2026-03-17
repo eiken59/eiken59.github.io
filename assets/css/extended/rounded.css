@@ -2,19 +2,20 @@
 .profile img,
 .profile .avatar,
 .profile .avatar img {
-  border-radius: 0 !important;   /* remove circle */
-  box-shadow: none !important;    /* optional: remove ring/shadow */
-  border-radius: 10px !important;  /* Optional: slightly rounded corners instead of sharp edges */
-  border: none !important;          /* remove border */
+  border-radius: 0 !important;       /* remove circle */
+  box-shadow: none !important;       /* optional: remove ring/shadow */
+  border-radius: 10px !important;    /* optional: slightly rounded corners instead of sharp edges */
+  border: none !important;           /* remove border */
   outline: none !important;          /* remove outline */
   padding: 0 !important;             /* remove inner spacing that can look like a ring */
   background: transparent !important;/* no background ring */
+  margin-bottom: 1rem !important;    /* larger the space between the photo and the title */
 }
 
 .social-icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 12px;
+  gap: 8px 6px;
   width: 100%;
   justify-content: space-evenly;
   margin-inline: auto;
@@ -39,6 +40,8 @@
   text-decoration: none;
   color: inherit;
   padding: 8px 6px;
+  flex: 0 0 130px;
+  justify-content: center;
 }
 
 .social-icons .social-icon-item .social-icon-label {
@@ -53,4 +56,10 @@
 .social-icons .social-icon-item svg {
   height: 26px;
   width: 26px;
+}
+
+/* Justify the subtitle text */
+.profile_inner > span {
+  text-align: justify;
+  text-justify: inter-word;
 }

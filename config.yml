@@ -49,15 +49,15 @@ params:
           subtitle: |
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Yung-Hsuan Chang, also known as Eiken. I am finishing my undergraduate study at National Yang Ming Chiao Tung University with research experience in random walks, as well as experience in tutoring, curriculum design, and mathematical communication.
+            I'm Yung-Hsuan Chang, also known as Eiken. I am completing my B.S. in Applied Mathematics at National Yang Ming Chiao Tung University, complemented by an exchange year at École polytechnique in France. My academic background spans research in probability (random walks), statistics, machine learning, and mathematical communication.
 
             &nbsp;
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am preparing for graduate study in actuarial science in the United States and am interested in actuarial, analytical, and other knowledge-intensive roles where I can contribute quantitative training, clear writing, and multilingual communication skills.
+            Actively preparing for graduate studies and a career in actuarial science, I have passed SOA Exams P and FM. I am looking forward to actuarial and data-driven roles where I can leverage my quantitative training, programming proficiency, and multilingual communication skills.
 
             &nbsp;
           imageUrl: "pp.png"
-          imageWidth: 200
+          imageWidth: 180
           imageHeight: auto
 
     socialIcons:
