@@ -15,7 +15,7 @@ menu:
         - name: Posts
           url: posts/
           weight: 1
-        - name: 讀書心得
+        - name: Book Reviews
           url: book_reviews/
           weight: 2
 
