@@ -15,6 +15,9 @@ menu:
         - name: Posts
           url: posts/
           weight: 1
+        - name: 讀書心得
+          url: book_reviews/
+          weight: 2
 
 params:
     description: "This website hosts CHANG Yung-Hsuan's curriculum vitae, contact information, and academic backgrounds."
