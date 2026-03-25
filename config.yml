@@ -23,7 +23,7 @@ params:
     description: "This website hosts CHANG Yung-Hsuan's curriculum vitae, contact information, and academic backgrounds."
     author: CHANG Yung-Hsuan
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "January, 2006"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: false
