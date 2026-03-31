@@ -5,7 +5,7 @@ url: /undergraduate_course_reflections/
 tags: ["NYCU", "X"]
 author: ["CHANG Yung-Hsuan"]
 description: "Undergraduate Course Reflections, CHANG Yung-Hsuan" 
-summary: "Bachelor of Science in Applied Mathematics (expected to graduate in June 2026), National Yang Ming Chiao Tung University"
+summary: "Reflections for every course I have ever taken in my undergraduate studies."
 disableAnchoredHeadings: true
 showToc: true
 UseHugoToc: true

@@ -1,10 +1,13 @@
 ---
 title: "Posts"
-# date: 2026-03-16
+date: 2026-03-16
 url: /posts/
 layout: "posts"
-# description: "A directory of the main writing and portfolio pages on this site."
-# summary: "A directory of the main writing and portfolio pages on this site."
+author: ["CHANG Yung-Hsuan"]
+description: "Selected reviews for some interesting books."
+summary: "Selected reviews for some interesting books."
 disableAnchoredHeadings: true
-showToc: false
+showToc: true
+UseHugoToc: true
+
 ---

@@ -15,9 +15,6 @@ menu:
         - name: Posts
           url: posts/
           weight: 1
-        - name: Book Reviews
-          url: book_reviews/
-          weight: 2
 
 params:
     description: "This website hosts CHANG Yung-Hsuan's curriculum vitae, contact information, and academic backgrounds."
@@ -79,16 +76,16 @@ params:
 
     assets:
         disableScrollBarStyle: true
-        favicon: fairy_noBG.ico
-        favicon16x16: fairy-16x16.png
-        favicon32x32: fairy-32x32.png
-        apple_touch_icon: fairy_noBG.png
+        favicon: fairy_icon_transparent.png
+        favicon16x16: fairy_icon_transparent.png
+        favicon32x32: fairy_icon_transparent.png
+        apple_touch_icon: fairy_icon_transparent.png
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
       text: "CHANG Yung-Hsuan"
-      icon: fairy_noBG.ico
+      icon: fairy_icon_transparent.png
       iconHeight: 18
 
 markup:

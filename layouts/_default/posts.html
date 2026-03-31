@@ -4,6 +4,7 @@
   (site.GetPage "/undergraduate_course_reflections")
   (site.GetPage "/hs_portfolio")
   (site.GetPage "/portfolio")
+  (site.GetPage "/book_reviews")
 }}
 
 <article class="post-single">
@@ -19,10 +20,32 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
+</article>
 
+<style>
+  .posts-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 600px; /* 手機端不至於寬到緊貼邊框，維持良好閱讀感 */
+  }
+  @media (min-width: 768px) {
+    .main {
+      max-width: 1000px; /* 電腦端稍微加寬整體版面，讓雙欄各欄位寬度拉伸 */
+    }
+    .posts-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: none;
+    }
+  }
+</style>
+
+<div class="posts-grid">
   {{- range $pages }}
   {{- if . }}
-  <article class="post-entry">
+  <article class="post-entry" style="margin: 0; display: flex; flex-direction: column;">
     {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
     {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
     <header class="entry-header">
@@ -42,6 +65,6 @@
   </article>
   {{- end }}
   {{- end }}
-</article>
+</div>
 
 {{- end }}
