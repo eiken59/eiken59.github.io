@@ -1,0 +1,71 @@
+/* Fix main container height to avoid unnecessary scroll on home page */
+.main {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height)) !important;
+}
+.main .profile {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2)) !important;
+}
+
+/* Base TOC transition animations for all screen sizes */
+.toc .inner {
+    max-height: 0;
+    opacity: 0;
+    margin: 0 20px 0;
+    padding: 0 10px;
+    overflow-y: hidden !important;
+    /* Collapse: 0.2s delay, slower (0.4s) ease-in-out */
+    transition: max-height 0.4s ease-in-out 0.2s, opacity 0.4s ease-in-out 0.2s, margin 0.4s ease-in-out 0.2s, padding 0.4s ease-in-out 0.2s;
+}
+
+/* Hide nested TOC levels so it only shows the top level */
+.toc .inner ul ul {
+    display: none !important;
+}
+
+.toc.toc-expanded .inner {
+    max-height: 60vh;
+    opacity: 0.9;
+    margin: 5px 20px 0;
+    padding: 0 10px;
+    overflow-y: auto !important;
+    /* Expand: no delay, faster (0.2s) ease-in-out */
+    transition: max-height 0.2s ease-in-out, opacity 0.2s ease-in-out, margin 0.2s ease-in-out, padding 0.2s ease-in-out;
+}
+
+/* Floating Table of Contents for larger screens */
+@media screen and (min-width: 1200px) {
+    .toc {
+        position: fixed !important;
+        top: 100px;
+        left: calc(50% - var(--main-width)/2 - 300px);
+        width: 250px;
+        background-color: var(--code-bg);
+        border: 1px solid var(--border);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        border-radius: var(--radius);
+        padding: 10px;
+        z-index: 10;
+        visibility: visible !important;
+    }
+
+    .dark .toc {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Reduce wasted horizontal space inside the floating TOC */
+    .toc .inner {
+        margin: 0 5px 0 !important;
+        padding: 0 5px !important;
+    }
+
+    .toc.toc-expanded .inner {
+        max-height: calc(100vh - 160px);
+        margin: 5px 5px 0 !important;
+        padding: 0 5px !important;
+    }
+
+    /* Compress nested list indentation so text has more room */
+    .toc li ul {
+        margin-inline-start: 12px !important;
+    }
+}

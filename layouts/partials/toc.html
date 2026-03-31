@@ -93,4 +93,43 @@
         </div>
     </details>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tocContainers = document.querySelectorAll('.toc');
+        tocContainers.forEach(function(tocContainer) {
+            const tocDetails = tocContainer.querySelector('details');
+            if (!tocDetails) return;
+
+            let collapseTimeout;
+
+            // Optional: prevent default click to avoid glitching if hover is used
+            const summary = tocDetails.querySelector('summary');
+            if (summary) {
+                summary.addEventListener('click', function(e) {
+                    e.preventDefault();
+                });
+            }
+
+            tocContainer.addEventListener('mouseenter', function() {
+                clearTimeout(collapseTimeout);
+                tocDetails.setAttribute('open', '');
+                // Small delay to allow 'open' state to apply before adding class for CSS transition
+                requestAnimationFrame(() => {
+                    tocContainer.classList.add('toc-expanded');
+                });
+            });
+
+            tocContainer.addEventListener('mouseleave', function() {
+                tocContainer.classList.remove('toc-expanded');
+                // Wait for 0.4s CSS transition + 0.2s delay = 600ms total 
+                collapseTimeout = setTimeout(() => {
+                    if (!tocContainer.classList.contains('toc-expanded')) {
+                        tocDetails.removeAttribute('open');
+                    }
+                }, 600);
+            });
+        });
+    });
+</script>
 {{- end }}

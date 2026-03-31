@@ -8,6 +8,5 @@ description: "Selected reviews for some interesting books."
 summary: "Selected reviews for some interesting books."
 disableAnchoredHeadings: true
 showToc: true
-UseHugoToc: true
 
 ---

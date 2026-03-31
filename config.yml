@@ -33,7 +33,7 @@ params:
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
     mainSections: ["page"]
-    ShowToc: false
+    ShowToc: true
     disableScrollToTop: true
     TocOpen: false
     ShowWordCount: false

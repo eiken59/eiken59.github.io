@@ -8,7 +8,6 @@ description: "Undergraduate Course Reflections, CHANG Yung-Hsuan"
 summary: "Reflections for every course I have ever taken in my undergraduate studies."
 disableAnchoredHeadings: true
 showToc: true
-UseHugoToc: true
 
 ---
 
