@@ -24,6 +24,16 @@
     #section-block(
       [Honors],
       [
+        *Mathematics Presidential Award* #h(1fr) March 2026, September 2023,  &  February 2023
+
+        Department of Applied Mathematics, National Yang Ming Chiao Tung University
+
+        #explanation[
+          For my academic performance in applied mathematics in my undergraduate study.
+        ]
+
+        #v(1.0em)
+
         *#link("https://www.ptsgi.com/zhtw/news/news20260122/")[PTSGI.com 23rd Translation Scholarship]* #h(1fr) January 2026
         
         #link("https://www.ptsgi.com/")[PTSGI.com] (Presidential Translation Service Group International)
@@ -49,15 +59,6 @@
         National Yang Ming Chiao Tung University & the Ministry of Education
 
         For my exchange program at École polytechnique in France.
-        
-
-        #v(1.0em)
-
-        *Mathematics Presidential Award* #h(1fr) September 2023 #h(1.5pt) & #h(1.5pt) February 2023
-
-        Department of Applied Mathematics, National Yang Ming Chiao Tung University
-
-        For my academic performance in applied mathematics in my first year of undergraduate study.
         ]
 
         #v(1.0em)
@@ -86,7 +87,8 @@
     #section-block(
       [Projects],
       [ 
-        *Study of Hitting Time for Simple* #h(1fr) July 2025 -- February 2026 \ #qquad *Random Walks in One and Two Dimensions*
+        *Study of Hitting Time for Simple Random Walks in One and Two Dimensions* \
+        #h(1fr) July 2025 -- February 2026
 
         Research Project, College Student Research Scholarship, #link("https://www.nstc.gov.tw/?l=en")[National Science and Technology Council]
         
@@ -96,7 +98,7 @@
 
         #v(1.0em)
 
-        #link("https://eiken59.github.io/dis_poster.pdf")[*The Gambler's Ruin Problem for One-Dimensional*] #h(1fr) September 2025 -- December 2025 \ #qquad #link("https://eiken59.github.io/dis_poster.pdf")[*Random Walks: Simple Symmetric Random Walk and Some Extensions*]
+        #link("https://eiken59.github.io/dis_poster.pdf")[*The Gambler's Ruin Problem for One-Dimensional Random Walks: Simple Symmetric Random Walk and Some Extensions*] #h(1fr) September 2025 -- December 2025
         
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
@@ -138,11 +140,14 @@
     #section-block(
       [Work \ Experience],
       [
-        *Teaching Assistant* #h(1fr) September 2025 -- June 2026 #inverseexplanation[#h(1.5pt) & #h(1.5pt) September 2023 -- June 2024]
+        *Teaching Assistant* #h(1fr) September 2025 -- June 2026  &  September 2023 -- June 2024
         
         Department of Applied Mathematics, National Yang Ming Chiao Tung University  
         
-        #explanation[Marked homework and exams for #link("https://reurl.cc/qYaYr3")[Probability Theory] and #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=2&CrsNo=564018&lang=en-us")[Calculus A (II)] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=149&SC_ID=1")[FANG Xiang].]
+        #explanation[
+          / AY 2025: Marking homework and exams for #link("https://reurl.cc/qYaYr3")[Probability Theory] and #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=2&CrsNo=564018&lang=en-us")[Calculus A (II)] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=149&SC_ID=1")[FANG Xiang].
+          / AY 2023: Conducted office hours and marked exams for #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[(II)] under Prof. Yuki CHINO.
+        ]
 
         #explanation[#v(1.0em)
 
@@ -154,22 +159,14 @@
 
         #v(1.0em)
 
-        *Private Tutor* #h(1fr) September 2024 -- June 2025 #h(1.5pt) & #h(1.5pt) April 2023 -- June 2023 
+        *Private Tutor* #h(1fr) March 2026 -- June 2026, September 2024 -- June 2025,  &  April 2023 -- June 2023 
         
         Tutored students with customized handouts.
-
-        #v(1.0em)
-
-        *Teaching Assistant* #h(1fr) September 2023 -- June 2024
-        
-        Department of Applied Mathematics, National Yang Ming Chiao Tung University  
-        
-        Conducted office hours and marked exams for #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[(II)] under Prof. Yuki CHINO.
         ]
 
         #v(1.0em)
 
-        *Academic Tutor* #h(1fr) October 2023 -- November 2023 #h(1.5pt) & #h(1.5pt) April 2024 -- May 2024  
+        *Academic Tutor* #h(1fr) October 2023 -- November 2023  &  April 2024 -- May 2024  
         
         Center of Teaching and Learning Development, National Yang Ming Chiao Tung University  
         
