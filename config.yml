@@ -1,5 +1,5 @@
 baseURL: "https://eiken59.github.io/"
-title: Yung-Hsuan's Website
+title: Eiken
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -44,21 +44,21 @@ params:
         text: "<em>On dirige ce qu'on affronte. C'est là qu'on trouve la magie.</em>"
         hideCopyright: true
     profileMode:
-          enabled: true
-          title: CHANG Yung-Hsuan (張永璿)
-          subtitle: |
-            &nbsp;
+        enabled: true
+        title: CHANG Yung-Hsuan (張永璿)
+        subtitle: |
+          &nbsp;
 
-            I'm Yung-Hsuan Chang, also known as Eiken. I am completing my B.S. in Applied Mathematics at National Yang Ming Chiao Tung University, complemented by an exchange year at École polytechnique in France. My academic background spans research in probability (random walks), statistics, machine learning, and mathematical communication.
+          I'm Yung-Hsuan Chang, also known as Eiken. I am completing my B.S. in Applied Mathematics at <a href="https://www.nycu.edu.tw/">National Yang Ming Chiao Tung University</a>, complemented by an exchange year at <a href="https://www.polytechnique.edu/">École polytechnique</a> in France. My academic background spans research in probability (random walks), statistics, machine learning, and mathematical communication.
 
-            &nbsp;
+          &nbsp;
 
-            Actively preparing for graduate studies and a career in actuarial science, I have passed SOA Exams P and FM. I am looking forward to actuarial and data-driven roles where I can leverage my quantitative training, programming proficiency, and multilingual communication skills.
+          Actively preparing for graduate studies and a career in <a href="https://en.wikipedia.org/wiki/Actuarial_science">actuarial science</a>, I have passed <a href="https://www.soa.org/">SOA</a> Exams P and FM. I am looking forward to actuarial and data-driven roles where I can leverage my quantitative training, programming proficiency, and multilingual communication skills.
 
-            &nbsp;
-          imageUrl: "pp.png"
-          imageWidth: 180
-          imageHeight: auto
+          &nbsp;
+        imageUrl: "pp.png"
+        imageWidth: 180
+        imageHeight: auto
 
     socialIcons:
         - name: CV

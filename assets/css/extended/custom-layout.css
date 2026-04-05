@@ -69,3 +69,13 @@
         margin-inline-start: 12px !important;
     }
 }
+
+.profile_inner span a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: var(--primary);
+}
+
+.profile_inner span a:hover {
+    text-decoration-color: var(--secondary);
+}
