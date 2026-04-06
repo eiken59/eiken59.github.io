@@ -65,6 +65,7 @@
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
+        document.body.classList.add('theme-toggling');
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
@@ -72,6 +73,9 @@
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
+        setTimeout(() => {
+            document.body.classList.remove('theme-toggling');
+        }, 500);
     })
 
 </script>

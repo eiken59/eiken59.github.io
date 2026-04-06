@@ -42,6 +42,21 @@
   padding: 8px 6px;
   flex: 0 0 130px;
   justify-content: center;
+  border-radius: 12px;
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.social-icons .social-icon-item:hover {
+  background-color: rgba(128, 128, 128, 0.075); /* 稍微深一點的灰色 */
+  transform: translateY(-2.25px); /* 往上跳 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* 稍微有點陰影顯得立體 */
+}
+
+/* 點擊時的下壓物理反饋 */
+.social-icons .social-icon-item:active {
+  transform: translateY(3px) scale(0.96); /* 往下壓並微縮小 */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* 陰影縮小 */
+  transition: all 0.05s ease-out; /* 快速按下的段落感 */
 }
 
 .social-icons .social-icon-item .social-icon-label {
@@ -62,4 +77,120 @@
 .profile_inner > span {
   text-align: justify;
   text-justify: inter-word;
+}
+
+/* Theme toggle button hover effects */
+#theme-toggle {
+  transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Removed translateY up on hover */
+#theme-toggle:active {
+  transform: translateY(2px) scale(0.9);
+  transition: transform 0.05s ease-out;
+}
+
+#theme-toggle svg {
+  grid-area: 1 / 1;
+  display: block !important; /* Overrides PaperMod's display: none */
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-origin: center;
+}
+
+/* Light Mode: Show moon, hide sun */
+body:not(.dark) #moon {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+body:not(.dark) #theme-toggle:hover #moon {
+  opacity: 0;
+  transform: scale(0.2) rotate(45deg);
+}
+
+body:not(.dark) #sun {
+  opacity: 0;
+  transform: scale(0.2) rotate(-45deg);
+}
+body:not(.dark) #theme-toggle:hover #sun {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+/* Dark Mode: Show sun, hide moon */
+body.dark #sun {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+body.dark #theme-toggle:hover #sun {
+  opacity: 0;
+  transform: scale(0.2) rotate(45deg);
+}
+
+body.dark #moon {
+  opacity: 0;
+  transform: scale(0.2) rotate(-45deg);
+}
+body.dark #theme-toggle:hover #moon {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+/* Prevent immediate icon swap when theme toggle is clicked */
+body.theme-toggling #theme-toggle svg {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s !important;
+}
+
+body.theme-toggling.dark #theme-toggle #sun {
+  opacity: 1 !important;
+  transform: scale(1) rotate(0deg) !important;
+}
+body.theme-toggling.dark #theme-toggle #moon {
+  opacity: 0 !important;
+  transform: scale(0.2) rotate(45deg) !important;
+}
+
+body.theme-toggling:not(.dark) #theme-toggle #moon {
+  opacity: 1 !important;
+  transform: scale(1) rotate(0deg) !important;
+}
+body.theme-toggling:not(.dark) #theme-toggle #sun {
+  opacity: 0 !important;
+  transform: scale(0.2) rotate(-45deg) !important;
+}
+
+/* Animations for header logo and nav menu items */
+.logo a, #menu a {
+  display: inline-block; /* Required for transform scale to work properly */
+  transition: transform 0.15s ease-in-out;
+  transform-origin: center;
+}
+
+.logo a:hover, #menu a:hover {
+  transform: scale(1.05); /* Slight zoom in on hover */
+}
+
+
+/* Prevent scrollbars from appearing during hover scale due to overflow-x: auto */
+#menu {
+  /* 扣去上下內距的 8px，確保整體的實際高度與 line-height 一致，才不會爆出 100vh 產生全域捲軸 */
+  line-height: calc(var(--header-height) - 8px);
+  padding-block: 4px;
+  scrollbar-width: none; /* Firefox: hide scrollbar */
+}
+#menu::-webkit-scrollbar {
+  display: none; /* Chrome/Safari: hide scrollbar */
+}
+
+/* 提高 dark mode 下 footer 文字的亮度 */
+body.dark .footer,
+body.dark .footer a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Stop forcing a vertical scrollbar track on pages that don't scroll */
+html {
+  overflow-y: auto !important;
 }
