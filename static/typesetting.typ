@@ -19,7 +19,7 @@
 }
 
 #let section-block(title, content) = [
-  #v(1.4em)
+  #v(1em)
   #grid(
     columns: (2fr, 11.5fr),
     align: (left + top, left + top),
@@ -41,9 +41,8 @@
 }
 
 #let typesetting(name, type: "CV", content) = [
-  #set page(margin: (x: 1.8cm, y: 2.1cm), numbering: "1  of  1")
+  #set page(margin: (x: 2cm, top: 1.8cm, bottom: 1.5cm), numbering: "1  of  1", footer-descent: 0.1cm)
   #set text(10pt, hyphenate: true, font: ("Libertinus Serif", "Segoe UI Emoji"))
-  #set terms(spacing: 1.5em)
   #set par(justify: true)
   #show smallcaps: set text(font: "Libertinus Serif")
   #show link: it => {
