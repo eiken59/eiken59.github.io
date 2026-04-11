@@ -35,7 +35,7 @@
     #section-block(
       [Projects],
       [ 
-        *Study of Hitting Time and Probability for Random Walks in One and Two Dimensions*#footnote[Supervised by Prof. Yuki CHINO.]<nycu_proj> \
+        *Study of Hitting Time and Probability for Random Walks in One and Two Dimensions*#footnote[Supervised by Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=141&SC_ID=1")[Yuki CHINO].]<nycu_proj> \
         #h(1fr) July 2025 -- February 2026
 
         Research Project, College Student Research Scholarship, National Science and Technology Council
@@ -99,7 +99,7 @@
         
         #explanation[
           / $quad$ AY 2025: #link("https://reurl.cc/qYaYr3")[Probability Theory] and #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=2&CrsNo=564018&lang=en-us")[Calculus A (II)] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=149&SC_ID=1")[FANG Xiang].
-          / $quad$ AY 2023: #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[Calculus A (II)] under Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=141&SC_ID=1")[Yuki CHINO].
+          / $quad$ AY 2023: #link("https://reurl.cc/Djp5jN")[Calculus A (I)] and #link("https://reurl.cc/RqoMez")[Calculus A (II)] under Prof. Yuki CHINO.
         ]
 
         #explanation[
