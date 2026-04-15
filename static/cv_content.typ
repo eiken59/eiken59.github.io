@@ -26,7 +26,7 @@
       [
         / Programming: Python, C++, and R; #LaTeX and #typst.
 
-        / Languages: Mandarin, English (CEFR C1), Japanese (JLPT N2), and French (conversatinoal).
+        / Languages: Mandarin, English (CEFR C1), Japanese (JLPT N2), and French (conversational).
 
         / ASA Courses: Exam P#explanation(" (July 2025)"), Exam FM#explanation(" (December 2025)"), VEE Mathematical Statistics, and VEE Accounting & Finance.
       ],
