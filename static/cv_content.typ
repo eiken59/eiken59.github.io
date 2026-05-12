@@ -52,18 +52,18 @@
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
         #explanation[
-          - Verified the linear solution $x\/r$ for simple symmetric walks and extended the scaling $\u{224D}(x + 1)\/r$ to finite-step and finite-variance models, adapting classical stochastic models to broader conditions.
+          - Verified the solution $x\/r$ for simple symmetric walks and extended the scaling $\u{224D}(x + 1)\/r$ to finite-step-length and finite-variance models, adapting classical stochastic models to broader conditions.
           - Awarded *Best Project* (Departmental) and *Best Presentation* (2025 Inter-University Conference).
         ]
 
         #v(1.0em)
 
-        #link("https://github.com/eiken59/ml_project/blob/main/README.md")[*Credit Card Default Detection Using Machine Learning*] #h(1fr) February 2025 -- June 2025
+        #link("https://github.com/eiken59/credit_card_default_detection/blob/main/README.md")[*Credit Card Default Detection Using Machine Learning*] #h(1fr) February 2025 -- June 2025
 
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         
         #explanation[
-          - Engineered predictive pipelines in `Python` (`scikit-learn`) to address imbalanced datasets via optimizing the F1-score to capture rare default events.
+          - Engineered predictive pipelines in Python (`scikit-learn`) to address imbalanced datasets via optimizing the F1-score to capture rare default events.
           - Evaluated the trade-off between interpretability and accuracy by comparing baseline logistic regression against ensemble methods like XGBoost, demonstrating that transparent models can achieve comparable performance.
         ]
 
