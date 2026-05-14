@@ -74,7 +74,7 @@
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/32/CSC-2F001-EP-object-oriented-programming-in-c?from=D12")[Object-oriented Programming], École polytechnique
         
         #explanation[
-          - Implemented bitboard representations and minimax evaluation in pure `C++`.
+          - Implemented bitboard representations and minimax evaluation in pure C++.
           - Placed 9th of 26 in the class competitive tournament.
         ]
 
