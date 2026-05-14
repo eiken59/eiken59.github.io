@@ -9,6 +9,12 @@
     #section-block(
       [Education],
       [
+        #link("https://www.gsu.edu")[*Georgia State University*] #h(1fr) Atlanta, GA, USA
+
+        Master of Actuarial Science #h(1fr) August 2027 -- December 2028 _(Expected)_
+
+        #v(1.0em)
+
         #link("https:////www.nycu.edu.tw/nycu/en/index")[*National Yang Ming Chiao Tung University*] #h(1fr) Hsinchu City, Taiwan
 
         Bachelor of Science in Applied Mathematics #h(1fr) August 2022 -- June 2026
@@ -35,10 +41,22 @@
     #section-block(
       [Projects],
       [ 
+        *Motor Insurance Pure Premium Pricing: Bridging Machine Learning and Actuarial Compliance using Tree-GLM Hybrids* #h(1fr) March 2025 -- Present
+
+        Independent Research Project #h(1fr) _Submitted to NAAJ and under review._
+        
+        #explanation[
+          - Developed a three-stage pipeline of rule extraction, binning, and penalized GLM to evaluate pure premiums using the `freMTPL2` dataset.
+          - Verified that the additive structure of Tree-GLM imposes no statistically detectable risk-ranking penalty relative to LightGBM on the `freMTPL2` dataset while preserving inspectability.
+          - Showcased that Tree-GLM's risk-ranking is dominated by behavioral (`BonusMalus`) rather than demographic covariates (`Region`).
+        ]
+
+        #v(1.0em)
+
         *Study of Hitting Time and Probability for Random Walks in One and Two Dimensions*#footnote[Supervised by Prof. #link("https://www.math.nycu.edu.tw/faculty/e_faculty_content.php?S_ID=141&SC_ID=1")[Yuki CHINO].]<nycu_proj> \
         #h(1fr) July 2025 -- February 2026
 
-        Research Project, College Student Research Scholarship, National Science and Technology Council
+        Research Project, College Student Research Scholarship, #link("https://www.nstc.gov.tw/?l=en")[National Science and Technology Council]
         
         #explanation[
           - Derived hitting time distributions and expectations for one-dimensional and two-dimensional simple random walks.
@@ -137,7 +155,7 @@
 
         *College Student Research Scholarship* #h(1fr) July 2025 -- February 2026
 
-        #link("https://www.nstc.gov.tw/?l=en")[National Science and Technology Council]
+        National Science and Technology Council
 
         #explanation[
           For the project "Study of Hitting Time and Probability for Random Walks in One and Two Dimensions" under research grant 114-2813-C-A49-139-M.
