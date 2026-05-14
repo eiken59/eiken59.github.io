@@ -44,6 +44,7 @@
   #set page(margin: (x: 2cm, top: 1.8cm, bottom: 1.5cm), numbering: "1  of  1", footer-descent: 0.1cm)
   #set text(10pt, hyphenate: true, font: ("Libertinus Serif", "Segoe UI Emoji"))
   #set par(justify: true)
+  #set terms(spacing: 1.2em)
   #show smallcaps: set text(font: "Libertinus Serif")
   #show link: it => {
     set text(fill: blue)
