@@ -1,8 +1,8 @@
 ---
 title: "Undergraduate Course Reflections" 
-date: 2026-01-08
+date: 2026-06-09
 url: /undergraduate_course_reflections/
-tags: ["NYCU", "X"]
+tags: ["NYCU", "X", "NTHU"]
 author: ["CHANG Yung-Hsuan"]
 description: "Undergraduate Course Reflections, CHANG Yung-Hsuan" 
 summary: "Reflections for every course I have ever taken in my undergraduate studies."
@@ -362,13 +362,15 @@ The instructor, holding a bachelor's degree in mathematics, demonstrated remarka
 
 ## 2026 Spring
 
-I took 9 credits this semester. They are all graduate level courses. Notably, the course Survival Analysis is opened by the Institute of Statistics and Data Science, National Tsing Hua University.
+I took 9 credits this semester. They are all graduate level courses.
 
 | Course Name | Teacher | 老師 | Credits | Score |
 | --- | --- | --- | :---: | :---: |
 | Survival Analysis | CHENG Yu-Jen | 鄭又仁 | 3 |  |
 | Python and Machine Learning Algorithms | LIN Chin-Hung | 林晉宏 | 3 |  |
 | Time Series | KAO Chu-Lan | 高竹嵐 | 3 |  |
+
+The course Survival Analysis is opened by the Institute of Statistics and Data Science, National Tsing Hua University.
 
 ### Survival Analysis
 
