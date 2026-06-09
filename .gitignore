@@ -9,4 +9,5 @@ resources/
 
 # typ byproducts
 *_content.pdf
+content/portfolio.md
 typesetting.pdf

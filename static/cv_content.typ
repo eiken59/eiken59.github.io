@@ -135,7 +135,7 @@
         Center of Teaching and Learning Development, National Yang Ming Chiao Tung University  
         
         #explanation[
-          Tutored overseas students in Calculus A and conducted weekly sessions with customized #link("https://github.com/eiken59/2024_II_Tutor")[handouts].
+          Tutored overseas students in Calculus A and conducted weekly sessions with customized handouts.
         ]
       ]
     )
