@@ -6,3 +6,6 @@ resources/
 # Ignore macOS system files
 .DS_Store
 ../.DS_Store
+
+# typ byproducts
+*_content.pdf
