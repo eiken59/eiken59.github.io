@@ -54,6 +54,12 @@
     set text(fill: blue)
     it
   }
+  #show footnote: it => {
+    set text(fill: blue)
+    it
+  }
+  #set footnote(numbering: "*")
+  #counter(footnote).step()
   #v(-1.5em)
   #if type == "CV" [
     #grid(

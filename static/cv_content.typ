@@ -47,7 +47,7 @@
         
         #explanation[
           - Developed a three-stage pipeline of rule extraction, binning, and penalized GLM to evaluate pure premiums using the `freMTPL2` dataset.
-          - Verified that the additive structure of Tree-GLM imposes no statistically detectable risk-ranking penalty relative to LightGBM on the `freMTPL2` dataset while preserving inspectability.
+          - Verified that the additive structure of Tree-GLM imposes no statistically detectable risk-ranking penalty relative to LightGBM while preserving inspectability.
           - Showcased that Tree-GLM's risk-ranking is dominated by behavioral (`BonusMalus`) rather than demographic covariates (`Region`).
         ]
 
@@ -70,7 +70,7 @@
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
         #explanation[
-          - Verified the solution $x\/r$ for simple symmetric walks and extended the scaling $\u{224D}(x + 1)\/r$ to finite-step-length and finite-variance models, adapting classical stochastic models to broader conditions.
+          - Verified the solution $x\/r$ for simple symmetric walks and extended the scaling $\u{224D}(x + 1)\/r$ to finite-step-length and finite-variance models.
           - Awarded *Best Project* (Departmental) and *Best Presentation* (2025 Inter-University Conference).
         ]
 
