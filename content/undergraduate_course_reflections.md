@@ -362,7 +362,7 @@ The instructor, holding a bachelor's degree in mathematics, demonstrated remarka
 
 ## 2026 Spring
 
-I will take 9 credits this semester. They are all graduate level courses. Notably, the course Survival Analysis is opened by the Institute of Statistics and Data Science, National Tsing Hua University.
+I took 9 credits this semester. They are all graduate level courses. Notably, the course Survival Analysis is opened by the Institute of Statistics and Data Science, National Tsing Hua University.
 
 | Course Name | Teacher | 老師 | Credits | Score |
 | --- | --- | --- | :---: | :---: |
@@ -372,6 +372,18 @@ I will take 9 credits this semester. They are all graduate level courses. Notabl
 
 ### Survival Analysis
 
-### Python and Machine Learning Algorithms
+This stands as the most technically demanding yet intellectually coherent course I have taken.
 
-### Time Seires
+Grounded in biostatistics, the course provides meaningful context for each statistical tool, making the methodology feel purposeful rather than arbitrary. The mathematical depth is substantial—rigorous without sacrificing clarity.
+
+I count myself fortunate to have encountered this course.
+
+### Python and Machine Learning Algorithms
+The course proceeds through lectures supplemented by brief in-class exercises, completed within the session itself. 
+
+The grading rewards consistent engagement with the material over the semester.
+
+### Time Series
+The course draws on Tsay's *Analysis of Financial Time Series* as its core text, which is an authoritative reference in the field. The assignments are particularly well-constructed: rather than mechanical application, they require students to assess which method is appropriate and to interpret results with critical judgment.
+
+The toolkit introduced is genuinely useful.
