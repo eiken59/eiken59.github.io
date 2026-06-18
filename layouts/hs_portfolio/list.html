@@ -1,12 +1,11 @@
 {{- define "main" }}
 {{- if eq .RelPermalink "/hs_portfolio/" }}
 {{- /* The hub defaults to the 學習歷程檔案的簡介 page. */ -}}
-{{- $intro := (site.GetPage "/hs_portfolio/intro").RelPermalink }}
-<meta http-equiv="refresh" content="0; url={{ $intro }}">
-<script>window.location.replace({{ $intro | jsonify }});</script>
+<meta http-equiv="refresh" content="0; url=/hs_portfolio/intro/">
+<script>window.location.replace("/hs_portfolio/intro/");</script>
 <article class="post-single">
   <div class="post-content">
-    <p><a href="{{ $intro }}">前往「學習歷程檔案的簡介」…</a></p>
+    <p><a href="/hs_portfolio/intro/">前往「學習歷程檔案的簡介」…</a></p>
   </div>
 </article>
 {{- else }}
