@@ -8,7 +8,9 @@ hideMeta: true
 disableAnchoredHeadings: true
 ---
 
-*錄取：國立成功大學系統及船舶機電工程學系*
+*2022年6月畢業於國立新竹高級中學，以考試入學錄取國立成功大學系統及船舶機電工程學系，物理科成績全國前600名。*
+
+**email**: allen781781@gmail.com
 
 <!-- 想說的話可於此補充 -->
 

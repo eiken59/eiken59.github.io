@@ -8,7 +8,9 @@ hideMeta: true
 disableAnchoredHeadings: true
 ---
 
-*錄取：國立成功大學生物醫學工程學系*
+*2022 年 6 月畢業於國立新竹高級中學，以個人申請錄取國立成功大學生物醫學工程學系。*
+
+**email**: eddyliu.tw@gmail.com
 
 <!-- 想說的話可於此補充 -->
 
