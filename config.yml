@@ -17,7 +17,8 @@ menu:
           weight: 1
 
 params:
-    description: "This website hosts CHANG Yung-Hsuan's curriculum vitae, contact information, and academic backgrounds."
+    description: "Personal website of Chang Yung-Hsuan (張永璿), also known as Eiken — CV, contact information, and academic background in applied mathematics, statistics, machine learning, and actuarial science."
+    keywords: ["張永璿", "Chang Yung-Hsuan", "CHANG Yung-Hsuan", "Eiken", "eiken59", "applied mathematics", "statistics", "actuarial science", "NYCU", "National Yang Ming Chiao Tung University"]
     author: CHANG Yung-Hsuan
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January, 2006"

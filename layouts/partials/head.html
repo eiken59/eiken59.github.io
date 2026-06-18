@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="google-site-verification" content="4LW0Kz5jshWq1jB2UQzL4dNhsCvsNYKeNa8ADrCx6Qo">
 {{- if hugo.IsProduction | and (ne .Params.robotsNoIndex true) }}
 <meta name="robots" content="index, follow">
 {{- else }}
@@ -14,7 +15,7 @@
   {{- else if and (not .IsHome) .Title -}}
     {{ .Title }} | {{ .Site.Title }}
   {{- else -}}
-    {{ .Site.Title }}
+    {{ .Site.Title }} | Chang Yung-Hsuan (張永璿)
   {{- end -}}
 </title>
 
@@ -144,6 +145,27 @@
 {{- partial "templates/opengraph.html" . }}
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Chang Yung-Hsuan",
+  "alternateName": ["張永璿", "CHANG Yung-Hsuan", "Eiken"],
+  "url": "https://eiken59.github.io/",
+  "image": "https://eiken59.github.io/pp.png",
+  "jobTitle": "Applied Mathematics Student",
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "National Yang Ming Chiao Tung University"},
+    {"@type": "CollegeOrUniversity", "name": "École polytechnique"}
+  ],
+  "sameAs": [
+    "https://github.com/eiken59/",
+    "https://www.linkedin.com/in/eiken59/"
+  ]
+}
+</script>
+{{- end }}
 
 {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
 {{- partial "analytics.html" . }}
