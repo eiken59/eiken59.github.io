@@ -1,5 +1,4 @@
 #import "typesetting.typ": *
-#import emoji: *
 
 #let cv_content(is_cv: true) = {
   let explanation(content) = hide_and_seek(is_cv, content)
@@ -39,6 +38,13 @@
     )
 
     #section-block(
+      [Coursework],
+      [
+        Survival Analysis#footnote[Graduate-level course taken as an undergraduate.]<gradcourse>, Time Series@gradcourse, Machine Learning@gradcourse, Probability Theory, Advanced Statistics, Econometrics, and Futures & Options.
+      ],
+    )
+
+    #section-block(
       [Projects],
       [ 
         *Motor Insurance Pure Premium Pricing: Bridging Machine Learning and Actuarial Compliance using Tree-GLM Hybrids* #h(1fr) March 2025 -- Present
@@ -60,7 +66,7 @@
         
         #explanation[
           - Derived hitting time distributions and expectations for one-dimensional and two-dimensional simple random walks.
-          - Established an $N^2$ scaling for expected hitting times in bounded domains and linked discrete probability coefficients to torsional rigidity in beam theory, providing a cross-disciplinary analytical framework for evaluating boundary behaviors in random walks.
+          - Established an $N^2$ scaling for expected hitting times in bounded domains and identified the discrete probability coefficients with the centroidal value of the Prandtl stress function from the torsion problem, providing a cross-disciplinary analytical framework for evaluating boundary behaviors in random walks.
         ]
 
         #v(1.0em)
@@ -70,8 +76,8 @@
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
         #explanation[
-          - Verified the solution $x\/r$ for simple symmetric walks and extended the scaling $\u{224D}(x + 1)\/r$ to finite-step-length and finite-variance models.
-          - Awarded *Best Project* (Departmental) and *Best Presentation* (2025 Inter-University Conference).
+          - Derived the $x\/r$ hitting probability for the simple symmetric walk via the optional sampling theorem and a second-order recurrence.
+          - Extended the analysis to spread-out (bounded-step) and finite-variance walks, handling boundary overshoot to establish the $\u{224D}(x + 1)\/r$ scaling for the ruin probability.
         ]
 
         #v(1.0em)
@@ -126,7 +132,6 @@
         *Private Tutor* #h(1fr) March 2026 -- June 2026, September 2024 -- June 2025,  &  April 2023 -- June 2023 
         
         Tutored high school and university students in mathematics, linear algebra, probability, and statistics with customized handouts.
-        ]
 
         #v(1.0em)
 
@@ -134,8 +139,7 @@
         
         Center of Teaching and Learning Development, National Yang Ming Chiao Tung University  
         
-        #explanation[
-          Tutored overseas students in Calculus A and conducted weekly sessions with customized handouts.
+        Tutored overseas students in Calculus A and conducted weekly sessions with customized handouts.
         ]
       ]
     )
@@ -143,12 +147,11 @@
     #section-block(
       [Honors],
       [
-        *Mathematics Presidential Award* #h(1fr) March 2026, September 2023,  &  February 2023
+        #explanation[*Mathematics Presidential Award* #h(1fr) March 2026, September 2023,  &  February 2023
 
         Department of Applied Mathematics, National Yang Ming Chiao Tung University
 
-        #explanation[
-          For my academic performance in applied mathematics in my undergraduate study.
+        For my academic performance in applied mathematics in my undergraduate study.
         ]
 
         #v(1.0em)
