@@ -1,0 +1,17 @@
+{{- /* Section navigation for the learning-portfolio (張永璿的學習歷程小窩). */ -}}
+{{- $cur := . }}
+{{- with site.GetPage "/hs_portfolio" }}
+<nav class="pf-nav">
+  {{- range .Pages }}
+  <a href="{{ .Permalink }}" class="pf-nav-item{{ if hasPrefix $cur.RelPermalink .RelPermalink }} active{{ end }}">{{ .Title }}</a>
+  {{- end }}
+</nav>
+{{- end }}
+{{- $ex := site.GetPage "/hs_portfolio/examples" }}
+{{- if and $ex (hasPrefix $cur.RelPermalink $ex.RelPermalink) }}
+<nav class="pf-subnav">
+  {{- range $ex.Pages }}
+  <a href="{{ .Permalink }}" class="pf-subnav-item{{ if eq $cur.RelPermalink .RelPermalink }} active{{ end }}">{{ .Title }}</a>
+  {{- end }}
+</nav>
+{{- end }}

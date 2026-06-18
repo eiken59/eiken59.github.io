@@ -1,0 +1,30 @@
+{{- define "main" }}
+{{- if eq .RelPermalink "/hs_portfolio/" }}
+{{- /* The hub defaults to the 學習歷程檔案的簡介 page. */ -}}
+{{- $intro := (site.GetPage "/hs_portfolio/intro").RelPermalink }}
+<meta http-equiv="refresh" content="0; url={{ $intro }}">
+<script>window.location.replace({{ $intro | jsonify }});</script>
+<article class="post-single">
+  <div class="post-content">
+    <p><a href="{{ $intro }}">前往「學習歷程檔案的簡介」…</a></p>
+  </div>
+</article>
+{{- else }}
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+  </header>
+
+  {{- partial "pf_nav.html" . }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+</article>
+{{- end }}
+{{- end }}
