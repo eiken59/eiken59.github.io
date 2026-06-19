@@ -82,13 +82,13 @@
 
         #v(1.0em)
 
-        #link("https://eiken59.github.io/ccdp_ml.pdf")[*Credit Card Default Detection Using Machine Learning*] #h(1fr) February 2025 -- June 2025
+        #link("https://eiken59.github.io/ccdp_ml.pdf")[*Credit Card Default Prediction Using Machine Learning*] #h(1fr) February 2025 -- June 2025
 
-        Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
+        Independent Re-analysis of a Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         
         #explanation[
-          - Engineered predictive pipelines in Python (`scikit-learn`) to address imbalanced datasets via optimizing the F1-score to capture rare default events.
-          - Evaluated the trade-off between interpretability and accuracy by comparing baseline logistic regression against ensemble methods like XGBoost, demonstrating that transparent models can achieve comparable performance.
+          - Engineered an imbalance-aware pipeline in Python (`scikit-learn`) on a 30,000-client dataset (about 22% default), tuning five classifiers for default-class F1 by cross-validation under class weighting.
+          - Used 2000-sample bootstrap confidence intervals to show that a transparent logistic regression is statistically indistinguishable from random-forest and XGBoost ensembles, with minority-class recall (not headline accuracy) as the binding constraint.
         ]
 
         // #v(1.0em)

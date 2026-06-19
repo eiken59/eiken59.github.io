@@ -11,3 +11,6 @@ resources/
 *_content.pdf
 content/portfolio.md
 typesetting.pdf
+
+# Resume in Mandarin
+static/resume_zh.*
