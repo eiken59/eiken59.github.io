@@ -13,7 +13,7 @@ disableAnchoredHeadings: true
 
 **Approach.** Working from the UCI *Default of Credit Card Clients* dataset (30,000 Taiwanese accounts), I built a pipeline with domain-informed feature engineering (payment-delay summaries, bill-versus-payment gaps), log1p skew reduction, min-max scaling, and stratified train/test splits. Five classifiers — logistic regression, decision tree, k-nearest neighbors, random forest, and XGBoost — were tuned by F1-oriented cross-validation and judged on precision, recall, F1, and ROC-AUC rather than raw accuracy.
 
-**Results.** Random forest gave the best balance (F1 ≈ 0.55, recall ≈ 0.60), identifying about 60% of defaulters at roughly 50% precision. The report makes the recall–precision trade-off of rare-event detection explicit and discusses SMOTE, threshold tuning, and SHAP as next steps.
+**Results.** Random forest had the highest point estimate (F1 ≈ 0.55, recall ≈ 0.60), identifying about 60% of defaulters at roughly 50% precision. But that lead sits inside the bootstrap confidence intervals (2,000 resamples): the class-weighted models overlap and are statistically indistinguishable, with only k-nearest neighbors — which cannot be class-weighted — clearly trailing. The report makes the recall–precision trade-off of rare-event detection explicit and discusses SMOTE, threshold tuning, and SHAP as next steps.
 
 **Context.** A semester project with Carla Guinea-Carranza at École polytechnique; all data preprocessing, modeling, analysis, and write-up were done independently.
 
