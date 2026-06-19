@@ -12,9 +12,12 @@ taxonomies:
 
 menu:
     main:
+        - name: CV
+          url: eiken59_CV.pdf
+          weight: 1
         - name: Posts
           url: posts/
-          weight: 1
+          weight: 2
 
 params:
     description: "Personal website of Chang Yung-Hsuan (張永璿), also known as Eiken — CV, contact information, and academic background in applied mathematics, statistics, machine learning, and actuarial science."
@@ -50,7 +53,7 @@ params:
         subtitle: |
           &nbsp;
 
-          I'm Yung-Hsuan Chang, also known as Eiken. I am completing my Bachelor of Science degree in Applied Mathematics at <a href="https://www.nycu.edu.tw/">National Yang Ming Chiao Tung University</a>, complemented by an exchange year at <a href="https://www.polytechnique.edu/">École polytechnique</a> in France. Following graduation in June 2026, I will fulfill mandatory military service in Taiwan before pursuing a Master of Actuarial Science degree at the <a href="https://robinson.gsu.edu/">Robinson College of Business, Georgia State University</a>. My academic background spans research in probability (random walks), statistics, machine learning, and mathematical communication.
+          I'm Yung-Hsuan Chang, also known as Eiken. I am completing my Bachelor of Science degree in Applied Mathematics at <a href="https://www.nycu.edu.tw/">National Yang Ming Chiao Tung University</a>, complemented by an exchange year at <a href="https://www.polytechnique.edu/">École polytechnique</a> in France. Following graduation in June 2026, I will fulfill mandatory military service in Taiwan before pursuing a Master of Actuarial Science degree at the <a href="https://robinson.gsu.edu/academic-departments/risk-science/">Maurice R. Greenberg School of Risk Science, Robinson College of Business, Georgia State University</a>. My academic background spans research in probability (random walks), statistics, machine learning, and mathematical communication.
 
           &nbsp;
 
@@ -62,14 +65,14 @@ params:
         imageHeight: auto
 
     socialIcons:
-        - name: CV
-          url: eiken59_CV.pdf
         - name: Email
           url: mailto:eiken59@icloud.com
         - name: GitHub
           url: https://github.com/eiken59/
         - name: LinkedIn
           url: https://www.linkedin.com/in/eiken59/
+        - name: ORCID
+          url: https://orcid.org/0009-0007-2952-1570
         # - name: Google Sites
         #   url: https://sites.google.com/view/eiken59/
         # - name: YouTube

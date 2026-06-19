@@ -71,7 +71,7 @@
 
         #v(1.0em)
 
-        #link("https://eiken59.github.io/dis_poster.pdf")[*The Gambler's Ruin Problem for One-Dimensional Random Walks: Simple Symmetric Random Walk and Some Extensions*]@nycu_proj #h(1fr) September 2025 -- December 2025
+        #link("https://eiken59.github.io/dis_report.pdf")[*The Gambler's Ruin Problem for One-Dimensional Random Walks: Simple Symmetric Random Walk and Some Extensions*]@nycu_proj #h(1fr) September 2025 -- December 2025
         
         Semester Project, #link("https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=114&Sem=1&CrsNo=516714&lang=en-us")[Individual Directed Study (I)], National Yang Ming Chiao Tung University
         
@@ -82,7 +82,7 @@
 
         #v(1.0em)
 
-        #link("https://github.com/eiken59/credit_card_default_detection/blob/main/README.md")[*Credit Card Default Detection Using Machine Learning*] #h(1fr) February 2025 -- June 2025
+        #link("https://eiken59.github.io/ccdp_ml.pdf")[*Credit Card Default Detection Using Machine Learning*] #h(1fr) February 2025 -- June 2025
 
         Final Group Project, #link("https://synapses.polytechnique.fr/catalogue/2024-2025/ue/47/CSC-2S004-EP-machine-learning?from=D12")[Machine Learning], École polytechnique
         

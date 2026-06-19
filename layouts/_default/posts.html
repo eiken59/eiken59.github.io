@@ -1,6 +1,7 @@
 {{- define "main" }}
 
 {{- $pages := slice
+  (site.GetPage "/projects")
   (site.GetPage "/reflections")
   (site.GetPage "/hs_portfolio")
   (site.GetPage "/book_reviews")

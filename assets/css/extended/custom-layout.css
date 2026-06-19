@@ -79,3 +79,8 @@
 .profile_inner span a:hover {
     text-decoration-color: var(--secondary);
 }
+
+/* A little more breathing room between top-right nav items */
+#menu li + li {
+    margin-inline-start: calc(var(--gap) * 1.5);
+}
