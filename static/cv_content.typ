@@ -33,7 +33,7 @@
 
         / Languages: Mandarin, English (CEFR C1), Japanese (JLPT N2), and French (conversational).
 
-        / Actuarial Pathway: SOA Exam P#explanation(" (July 2025)"), FM#explanation(" (December 2025)"), VEE Mathematical Statistics, and VEE Accounting & Finance.
+        / Actuarial Pathway: Exam P#explanation(" (July 2025)"), Exam FM#explanation(" (December 2025)"), VEE Mathematical Statistics, VEE Accounting & Finance, and VEE Economics.
       ],
     )
 
