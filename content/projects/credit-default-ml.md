@@ -15,6 +15,6 @@ disableAnchoredHeadings: true
 
 **Results.** Random forest had the highest point estimate (F1 ≈ 0.55, recall ≈ 0.60), identifying about 60% of defaulters at roughly 50% precision. But that lead sits inside the bootstrap confidence intervals (2,000 resamples): the class-weighted models overlap and are statistically indistinguishable, with only k-nearest neighbors — which cannot be class-weighted — clearly trailing. The report makes the recall–precision trade-off of rare-event detection explicit and discusses SMOTE, threshold tuning, and SHAP as next steps.
 
-**Context.** A semester project with Carla Guinea-Carranza at École polytechnique; all data preprocessing, modeling, analysis, and write-up were done independently.
+**Context.** An independent report originated from a semester project with Carla GUINEA CARRANZA at École polytechnique; all data preprocessing, modeling, analysis, and write-up were done independently.
 
 [Read the full report (PDF)](/ccdp_ml.pdf)
