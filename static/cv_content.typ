@@ -40,7 +40,7 @@
     #section-block(
       [Coursework],
       [
-        Survival Analysis#footnote[Graduate-level course taken as an undergraduate.]<gradcourse>, Time Series@gradcourse, Machine Learning@gradcourse, Probability Theory, Advanced Statistics, Econometrics, and Futures & Options.
+        Survival Analysis#footnote[Graduate-level course taken as an undergraduate.]<gradcourse>, Time Series@gradcourse, Machine Learning@gradcourse, Probability Theory, Advanced Statistics, Futures and Options, Econometrics, and History of Economics.
       ],
     )
 
@@ -152,9 +152,9 @@
         Department of Applied Mathematics, National Yang Ming Chiao Tung University
 
         For my academic performance in applied mathematics in my undergraduate study.
-        ]
+        
 
-        #v(1.0em)
+        #v(1.0em)]
 
         *College Student Research Scholarship* #h(1fr) July 2025 -- February 2026
 
