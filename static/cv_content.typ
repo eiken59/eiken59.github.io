@@ -49,7 +49,7 @@
       [ 
         *Motor Insurance Pure Premium Pricing: Bridging Machine Learning and Actuarial Compliance using Tree-GLM Hybrids* #h(1fr) March 2025 -- Present
 
-        Independent Research Project #h(1fr) _Submitted to NAAJ and under review_
+        Independent Research Project #h(1fr) _Submitted to Variance and under review_
         
         #explanation[
           - Developed a three-stage pipeline of rule extraction, binning, and penalized GLM to evaluate pure premiums using the `freMTPL2` dataset.
