@@ -53,7 +53,7 @@
         
         #explanation[
           - Developed a three-stage pipeline of rule extraction, binning, and penalized GLM to evaluate pure premiums using the `freMTPL2` dataset.
-          - Verified that the additive structure of Tree-GLM imposes no statistically detectable risk-ranking penalty relative to LightGBM while preserving inspectability.
+          // - Verified that the additive structure of Tree-GLM imposes no statistically detectable risk-ranking penalty relative to LightGBM while preserving inspectability.
           - Showcased that Tree-GLM's risk-ranking is dominated by behavioral (`BonusMalus`) rather than demographic covariates (`Region`).
         ]
 
