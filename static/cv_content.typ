@@ -10,13 +10,13 @@
       [
         #link("https://www.gsu.edu")[*Georgia State University*] #h(1fr) Atlanta, GA, USA
 
-        Master of Actuarial Science #h(1fr) August 2027#footnote[Deferred due to mandatory military service.] -- December 2028 _(Expected)_
+        Master of #link("https://robinson.gsu.edu/academic-departments/risk-science/")[Actuarial Science] #h(1fr) August 2027#footnote[Deferred due to mandatory military service.] -- December 2028 _(Expected)_
 
         #v(1.0em)
 
         #link("https://www.nycu.edu.tw/nycu/en/index")[*National Yang Ming Chiao Tung University*] #h(1fr) Hsinchu City, Taiwan
 
-        Bachelor of Science in Applied Mathematics #h(1fr) August 2022 -- June 2026
+        Bachelor of Science in #link("https://www.math.nycu.edu.tw/event/e_index.php")[Applied Mathematics] #h(1fr) August 2022 -- June 2026
 
         #v(1.0em)
 
