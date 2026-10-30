@@ -1,0 +1,115 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script>(()=>{l={x:0,y:12};function _(e,t=0){let n=getComputedStyle(document.documentElement),o=n.getPropertyValue("--spring-smooth").trim()||"ease-out",i=parseFloat(n.getPropertyValue("--spring-smooth-dur"))*1e3||700,s=t;for(let[t,n]of e)t.animate([{opacity:0,transform:`translate(${l.x}px, ${l.y}px)`},{opacity:1,transform:"none"}],{duration:i,delay:s,easing:o,fill:"backwards"}),s+=n}h={block:50,item:35},e=document.documentElement,t=matchMedia("(prefers-reduced-motion: reduce)").matches,e.classList.add("motion"),a="1";try{a=sessionStorage.getItem("seen"),sessionStorage.setItem("seen","1")}catch{}!a&&!t&&document.currentScript?.hasAttribute("data-home")&&(e.classList.add("reveal"),window.__revealTimer=setTimeout(()=>e.classList.remove("reveal"),2500));var c="vt",p=new Set(["pf-ind","pf-subind"]),s=e=>{let t=new URL(e,location.href);return t.origin===location.origin?t.pathname.replace(/index\.html$/,""):null},i=s(location.href);function j(){return{"site-header":document.querySelector("header.header"),"vt-title":document.querySelector("main h1"),"pf-nav":document.querySelector(".pf-nav"),"pf-ind":document.querySelector(".pf-nav .pf-ind"),"pf-subnav":document.querySelector(".pf-subnav"),"pf-subind":document.querySelector(".pf-subnav .pf-ind")}}function v(e){for(let t of document.querySelectorAll(".post-entry > a.entry-link"))if(s(t.href)===e)return t.parentElement;return null}function m(e){for(let o of[".pf-subnav",".pf-nav"]){let a=[...document.querySelectorAll(o+" a")].map(e=>s(e.href)),r=e=>o===".pf-subnav"?a.indexOf(e):a.findIndex(t=>e.startsWith(t)),t=r(i),n=r(e);if(t>=0&&n>=0&&t!==n)return n>t?1:-1}return 0}var e,t,a,l,d,h,r=e=>{let t=e.getBoundingClientRect();return t.width>0&&t.bottom>0&&t.top<innerHeight},f=e=>e.textContent.replace(/\s+/g," ").trim(),o=e=>getComputedStyle(e).backgroundColor,g=e=>getComputedStyle(e).borderTopLeftRadius,u=[];function n(e,t){e.style.viewTransitionName=t,u.push(e)}function b(){for(let e of u)e.style.viewTransitionName="";u=[]}function w(){return[...document.querySelectorAll(".post-header > *, .page-header > *, .pf-nav, .pf-subnav, .toc, .post-content > *, .posts-grid > *, main > .post-entry, .post-footer")].filter(e=>{let t=e.getBoundingClientRect();return t.height>0&&t.top<innerHeight})}d=null,addEventListener("click",e=>{let t=e.target.closest?.("a[href]");t&&(d=t.href)},!0),addEventListener("pageswap",e=>{if(!e.viewTransition)return;let h=e.activation?.entry?.url??d,a=h?s(h):null,l=!t&&a&&v(a),w=a&&!t?m(a):0,O=[...document.querySelectorAll(".pf-nav a")].map(e=>s(e.href)),b=!!a&&O.some(e=>a.startsWith(e)),y={};for(let[e,s]of Object.entries(j()))e!=="site-header"&&!b||t&&p.has(e)||s&&r(s)&&(n(s,e),y[e]=e!=="vt-title"||f(s));let u=null,_=document.querySelector("main");l&&r(l)?(n(l,"vt-card"),u={card:!0,color:o(l),radius:g(l)}):!b&&!t&&_&&(n(_,"vt-card"),u={card:!1,color:o(document.body),radius:"0px"});try{sessionStorage.setItem(c,JSON.stringify({from:i,to:a,dir:w,named:y,zoom:u}))}catch{}}),addEventListener("pagereveal",s=>{if(b(),!s.viewTransition)return;let a=null;try{a=JSON.parse(sessionStorage.getItem(c)),sessionStorage.removeItem(c)}catch{}(!a||a.from===i||a.to&&a.to!==i)&&(a={from:null,dir:0,named:{}});let O=t?0:a.dir||(a.from?-m(a.from):0),x=document.querySelector("main"),l=a.from&&v(a.from),u=!t&&a.zoom?.card&&x,C=!t&&!u&&a.zoom&&l&&r(l),d=j();(u||d["vt-title"]&&f(d["vt-title"])!==a.named["vt-title"])&&(d["vt-title"]=null);for(let e of Object.keys(a.named))d[e]&&!(t&&p.has(e))&&n(d[e],e);if(e.dataset.vt=O>0?"forward":O<0?"backward":"fade",u){n(x,"vt-card"),y("in",a.zoom,{color:o(document.body),radius:"0px"});let t=getComputedStyle(e);_(w().map(e=>[e,h.block]),parseFloat(t.getPropertyValue("--spring-zoom-dur"))*1e3*.25||120)}else C&&(n(l,"vt-card"),y("out",a.zoom,{color:o(l),radius:g(l)}));s.viewTransition.finished.finally(()=>{delete e.dataset.vt,delete e.dataset.vtZoom;for(let t of["--vt-from","--vt-to","--vt-r0","--vt-r1"])e.style.removeProperty(t);b()})});function y(t,n,s){e.dataset.vtZoom=t,e.style.setProperty("--vt-from",n.color),e.style.setProperty("--vt-to",s.color),e.style.setProperty("--vt-r0",n.radius),e.style.setProperty("--vt-r1",s.radius)}})()</script><link rel=expect href=#main blocking=render><style>@view-transition{navigation: auto; }</style><script type=speculationrules>{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.pdf"}},{"not":{"selector_matches":"[target=_blank]"}}]},"eagerness":"moderate"}]}</script><meta name=google-site-verification content="4LW0Kz5jshWq1jB2UQzL4dNhsCvsNYKeNa8ADrCx6Qo"><meta name=robots content="index, follow"><title>Year 2 · Fall 2023 | Eiken</title>
+<meta name=keywords content="NYCU"><meta name=description content="I took 15 credits this semester. My GPA was 3.69.
+
+  
+      
+          Course Name
+          Teacher
+          老師
+          Credits
+          Score
+      
+  
+  
+      
+          Introduction to Analysis (I), Honor Class
+          WANG Kuo-Zhong
+          王國仲
+          4
+          B
+      
+      
+          Differential Equations
+          LIN Te-Sheng
+          林得勝
+          3
+          A
+      
+      
+          Microeconomics
+          HUANG Hsing-Hua
+          黃星華
+          3
+          A+
+      
+      
+          Probability Theory
+          HUANG Hsin-Yuan
+          黃信元
+          3
+          A-
+      
+      
+          Vector Calculus
+          Yuki CHINO
+          千野由喜
+          2
+          A-
+      
+      
+          Softball
+          HUANG Shan-Ying
+          黃杉楹
+          0
+          A+
+      
+  
+
+Surprisingly, these 15 credits felt heavier than the 27 I carried in my first semester."><meta name=author content="CHANG Yung-Hsuan"><link rel=canonical href=https://eiken59.github.io/reflections/y2s1/><link crossorigin=anonymous href=/assets/css/stylesheet.37e59cde59166c6cb376e95dde92f5db7c41f311f6c309120c2ee30b224702d1.css integrity="sha256-N+Wc3lkWbGyzduld3pL123xB8xH2wwkSDC7jCyJHAtE=" rel="preload stylesheet" as=style><link rel=icon href=https://eiken59.github.io/fairy_icon_transparent.png><link rel=icon type=image/png sizes=16x16 href=https://eiken59.github.io/fairy_icon_transparent.png><link rel=icon type=image/png sizes=32x32 href=https://eiken59.github.io/fairy_icon_transparent.png><link rel=apple-touch-icon href=https://eiken59.github.io/fairy_icon_transparent.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://eiken59.github.io/reflections/y2s1/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="https://eiken59.github.io/reflections/y2s1/"><meta property="og:site_name" content="Eiken"><meta property="og:title" content="Year 2 · Fall 2023"><meta property="og:description" content="I took 15 credits this semester. My GPA was 3.69.
+Course Name Teacher 老師 Credits Score Introduction to Analysis (I), Honor Class WANG Kuo-Zhong 王國仲 4 B Differential Equations LIN Te-Sheng 林得勝 3 A Microeconomics HUANG Hsing-Hua 黃星華 3 A+ Probability Theory HUANG Hsin-Yuan 黃信元 3 A- Vector Calculus Yuki CHINO 千野由喜 2 A- Softball HUANG Shan-Ying 黃杉楹 0 A+ Surprisingly, these 15 credits felt heavier than the 27 I carried in my first semester."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="reflections"><meta property="article:published_time" content="2023-12-30T00:00:00+00:00"><meta property="article:modified_time" content="2023-12-30T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Year 2 · Fall 2023"><meta name=twitter:description content="I took 15 credits this semester. My GPA was 3.69.
+
+  
+      
+          Course Name
+          Teacher
+          老師
+          Credits
+          Score
+      
+  
+  
+      
+          Introduction to Analysis (I), Honor Class
+          WANG Kuo-Zhong
+          王國仲
+          4
+          B
+      
+      
+          Differential Equations
+          LIN Te-Sheng
+          林得勝
+          3
+          A
+      
+      
+          Microeconomics
+          HUANG Hsing-Hua
+          黃星華
+          3
+          A+
+      
+      
+          Probability Theory
+          HUANG Hsin-Yuan
+          黃信元
+          3
+          A-
+      
+      
+          Vector Calculus
+          Yuki CHINO
+          千野由喜
+          2
+          A-
+      
+      
+          Softball
+          HUANG Shan-Ying
+          黃杉楹
+          0
+          A+
+      
+  
+
+Surprisingly, these 15 credits felt heavier than the 27 I carried in my first semester."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Undergraduate Course Reflections","item":"https://eiken59.github.io/reflections/"},{"@type":"ListItem","position":2,"name":"Year 2 · Fall 2023","item":"https://eiken59.github.io/reflections/y2s1/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Year 2 · Fall 2023","name":"Year 2 · Fall 2023","description":"I took 15 credits this semester. My GPA was 3.69.\nCourse Name Teacher 老師 Credits Score Introduction to Analysis (I), Honor Class WANG Kuo-Zhong 王國仲 4 B Differential Equations LIN Te-Sheng 林得勝 3 A Microeconomics HUANG Hsing-Hua 黃星華 3 A+ Probability Theory HUANG Hsin-Yuan 黃信元 3 A- Vector Calculus Yuki CHINO 千野由喜 2 A- Softball HUANG Shan-Ying 黃杉楹 0 A+ Surprisingly, these 15 credits felt heavier than the 27 I carried in my first semester.\n","keywords":["NYCU"],"articleBody":"I took 15 credits this semester. My GPA was 3.69.\nCourse Name Teacher 老師 Credits Score Introduction to Analysis (I), Honor Class WANG Kuo-Zhong 王國仲 4 B Differential Equations LIN Te-Sheng 林得勝 3 A Microeconomics HUANG Hsing-Hua 黃星華 3 A+ Probability Theory HUANG Hsin-Yuan 黃信元 3 A- Vector Calculus Yuki CHINO 千野由喜 2 A- Softball HUANG Shan-Ying 黃杉楹 0 A+ Surprisingly, these 15 credits felt heavier than the 27 I carried in my first semester.\nIntroduction to Analysis (I), Honor Class At our school the “Honor Class” label simply means the denser, faster sophomore analysis section — there is no separate honors credit attached. The instructor’s notes are clear, and the workload is heavy: the homework is brutal (straight from Baby Rudin), the exams draw from that homework and the notes, and the quizzes are free points.\nI never quite warmed to analysis — the almost telepathic guesswork of inequality estimation, the conditions to keep memorising, none of it caught my interest. The B was self-inflicted, too: the exams came from the homework, but I kept reviewing the lecture notes instead and walked in under-prepared. I nudged it to a B+ the following semester (still short of A-tier).\nDifferential Equations Board-and-slides lectures, and highly recommended. The homework is simple, the exams test the concepts taught in class, and there is no curve. Professor Lin is a wonderful lecturer — he lays the methods out like a map of the mathematical terrain, so you see where each tool sits and why you would reach for it. It is a teaching style I personally love.\nProbability Theory Taught straight from the textbook at the board. Honestly the subject just hadn’t clicked for me yet — that was on me more than the teaching. The exams were simpler than expected.\nVector Calculus Analysis-flavored multivariable calculus — no proofs required, just applying the theorems. The reports are generous and attendance is the main ask, but the final exam was hard.\nMicroeconomics Textbook-and-slides based, and clearly taught — super sweet by Math-department standards, and thoroughly chill. The first half (utility theory) is the kind of material a math student can walk in and crush; the back half ramps up, though, once it reaches the Slutsky identity and game theory.\nSoftball Attendance is 40% — show up fully and you pass.\n","wordCount":"385","inLanguage":"en","datePublished":"2023-12-30T00:00:00Z","dateModified":"2023-12-30T00:00:00Z","author":[{"@type":"Person","name":"CHANG Yung-Hsuan"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://eiken59.github.io/reflections/y2s1/"},"publisher":{"@type":"Organization","name":"Eiken","logo":{"@type":"ImageObject","url":"https://eiken59.github.io/fairy_icon_transparent.png"}}}</script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css integrity=sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js integrity=sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js integrity=sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk crossorigin=anonymous onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\begin{equation}",right:"\\end{equation}",display:!0},{left:"\\begin{equation*}",right:"\\end{equation*}",display:!0},{left:"\\begin{align}",right:"\\end{align}",display:!0},{left:"\\begin{align*}",right:"\\end{align*}",display:!0},{left:"\\begin{alignat}",right:"\\end{alignat}",display:!0},{left:"\\begin{gather}",right:"\\end{gather}",display:!0},{left:"\\begin{CD}",right:"\\end{CD}",display:!0}],throwOnError:!1})})</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://eiken59.github.io/ accesskey=h title="CHANG Yung-Hsuan"><img src=https://eiken59.github.io/fairy_icon_transparent.png alt aria-label=logo height=18 width=18>CHANG Yung-Hsuan</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://eiken59.github.io/eiken59_CV.pdf target=_blank rel="noopener noreferrer" title=CV><span>CV</span></a></li><li><a href=https://eiken59.github.io/posts/ title=Posts><span>Posts</span></a></li></ul></nav></header><main class=main id=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Year 2 · Fall 2023</h1><div class=post-meta><span title='2023-12-30 00:00:00 +0000 UTC'>December, 2023</span>&nbsp;&#183;&nbsp;CHANG Yung-Hsuan</div></header><div class=toc><details><summary accesskey=c><span class=details>Table of Contents</span></summary><div class=inner><ul><li><a href=#introduction-to-analysis-i-honor-class aria-label="Introduction to Analysis (I), Honor Class">Introduction to Analysis (I), Honor Class</a></li><li><a href=#differential-equations aria-label="Differential Equations">Differential Equations</a></li><li><a href=#probability-theory aria-label="Probability Theory">Probability Theory</a></li><li><a href=#vector-calculus aria-label="Vector Calculus">Vector Calculus</a></li><li><a href=#microeconomics aria-label=Microeconomics>Microeconomics</a></li><li><a href=#softball aria-label=Softball>Softball</a></li></ul></div></details></div><div class=post-content><p>I took 15 credits this semester. My GPA was 3.69.</p><table><thead><tr><th>Course Name</th><th>Teacher</th><th>老師</th><th style=text-align:center>Credits</th><th style=text-align:center>Score</th></tr></thead><tbody><tr><td>Introduction to Analysis (I), Honor Class</td><td>WANG Kuo-Zhong</td><td>王國仲</td><td style=text-align:center>4</td><td style=text-align:center>B</td></tr><tr><td>Differential Equations</td><td><a href=https://teshenglin.github.io target=_blank>LIN Te-Sheng</a></td><td>林得勝</td><td style=text-align:center>3</td><td style=text-align:center>A</td></tr><tr><td>Microeconomics</td><td>HUANG Hsing-Hua</td><td>黃星華</td><td style=text-align:center>3</td><td style=text-align:center>A+</td></tr><tr><td>Probability Theory</td><td>HUANG Hsin-Yuan</td><td>黃信元</td><td style=text-align:center>3</td><td style=text-align:center>A-</td></tr><tr><td>Vector Calculus</td><td>Yuki CHINO</td><td>千野由喜</td><td style=text-align:center>2</td><td style=text-align:center>A-</td></tr><tr><td>Softball</td><td>HUANG Shan-Ying</td><td>黃杉楹</td><td style=text-align:center>0</td><td style=text-align:center>A+</td></tr></tbody></table><p>Surprisingly, these 15 credits felt heavier than the 27 I carried in my first semester.</p><h2 id=introduction-to-analysis-i-honor-class>Introduction to Analysis (I), Honor Class</h2><p>At our school the &ldquo;Honor Class&rdquo; label simply means the denser, faster sophomore analysis section — there is no separate honors credit attached. The instructor&rsquo;s notes are clear, and the workload is heavy: the homework is brutal (straight from Baby Rudin), the exams draw from that homework and the notes, and the quizzes are free points.</p><p>I never quite warmed to analysis — the almost telepathic guesswork of inequality estimation, the conditions to keep memorising, none of it caught my interest. The B was self-inflicted, too: the exams came from the homework, but I kept reviewing the lecture notes instead and walked in under-prepared. I nudged it to a B+ the following semester (still short of A-tier).</p><h2 id=differential-equations>Differential Equations</h2><p>Board-and-slides lectures, and highly recommended. The homework is simple, the exams test the concepts taught in class, and there is no curve. Professor Lin is a wonderful lecturer — he lays the methods out like a map of the mathematical terrain, so you see where each tool sits and why you would reach for it. It is a teaching style I personally love.</p><h2 id=probability-theory>Probability Theory</h2><p>Taught straight from the textbook at the board. Honestly the subject just hadn&rsquo;t clicked for me yet — that was on me more than the teaching. The exams were simpler than expected.</p><h2 id=vector-calculus>Vector Calculus</h2><p>Analysis-flavored multivariable calculus — no proofs required, just applying the theorems. The reports are generous and attendance is the main ask, but the final exam was hard.</p><h2 id=microeconomics>Microeconomics</h2><p>Textbook-and-slides based, and clearly taught — super sweet by Math-department standards, and thoroughly chill. The first half (utility theory) is the kind of material a math student can walk in and crush; the back half ramps up, though, once it reaches the Slutsky identity and game theory.</p><h2 id=softball>Softball</h2><p>Attendance is 40% — show up fully and you pass.</p></div><footer class=post-footer></footer></article></main><footer class=footer><div style=text-align:center><em>On dirige ce qu&rsquo;on affronte. C&rsquo;est là qu&rsquo;on trouve la magie.</em></div></footer><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)})</script><script type=module crossorigin=anonymous src=/js/motion.1169b1d8a678042e95bb0485d457260c9d54f8faabac0142eba7ba4742b663f2.js integrity="sha256-EWmx2KZ4BC6VuwSF1FcmDJ1U+PqrrAFC66e6R0K2Y/I="></script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(e){if(t.innerHTML=e,!t.animate)return;const n=getComputedStyle(document.documentElement);t.animate({opacity:[0,1]},{duration:parseFloat(n.getPropertyValue("--spring-toggle-dur"))*1e3||300,easing:n.getPropertyValue("--spring-toggle").trim()||"ease-out"})}let o=0;function i(){s("copied!"),clearTimeout(o),o=setTimeout(()=>{s("copy")},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),i();return}const n=document.createRange();n.selectNodeContents(e);const s=window.getSelection();s.removeAllRanges(),s.addRange(n);try{document.execCommand("copy"),i()}catch{}s.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

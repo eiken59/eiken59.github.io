@@ -1,0 +1,213 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script>(()=>{l={x:0,y:12};function _(e,t=0){let n=getComputedStyle(document.documentElement),o=n.getPropertyValue("--spring-smooth").trim()||"ease-out",i=parseFloat(n.getPropertyValue("--spring-smooth-dur"))*1e3||700,s=t;for(let[t,n]of e)t.animate([{opacity:0,transform:`translate(${l.x}px, ${l.y}px)`},{opacity:1,transform:"none"}],{duration:i,delay:s,easing:o,fill:"backwards"}),s+=n}h={block:50,item:35},e=document.documentElement,t=matchMedia("(prefers-reduced-motion: reduce)").matches,e.classList.add("motion"),a="1";try{a=sessionStorage.getItem("seen"),sessionStorage.setItem("seen","1")}catch{}!a&&!t&&document.currentScript?.hasAttribute("data-home")&&(e.classList.add("reveal"),window.__revealTimer=setTimeout(()=>e.classList.remove("reveal"),2500));var c="vt",p=new Set(["pf-ind","pf-subind"]),s=e=>{let t=new URL(e,location.href);return t.origin===location.origin?t.pathname.replace(/index\.html$/,""):null},i=s(location.href);function j(){return{"site-header":document.querySelector("header.header"),"vt-title":document.querySelector("main h1"),"pf-nav":document.querySelector(".pf-nav"),"pf-ind":document.querySelector(".pf-nav .pf-ind"),"pf-subnav":document.querySelector(".pf-subnav"),"pf-subind":document.querySelector(".pf-subnav .pf-ind")}}function v(e){for(let t of document.querySelectorAll(".post-entry > a.entry-link"))if(s(t.href)===e)return t.parentElement;return null}function m(e){for(let o of[".pf-subnav",".pf-nav"]){let a=[...document.querySelectorAll(o+" a")].map(e=>s(e.href)),r=e=>o===".pf-subnav"?a.indexOf(e):a.findIndex(t=>e.startsWith(t)),t=r(i),n=r(e);if(t>=0&&n>=0&&t!==n)return n>t?1:-1}return 0}var e,t,a,l,d,h,r=e=>{let t=e.getBoundingClientRect();return t.width>0&&t.bottom>0&&t.top<innerHeight},f=e=>e.textContent.replace(/\s+/g," ").trim(),o=e=>getComputedStyle(e).backgroundColor,g=e=>getComputedStyle(e).borderTopLeftRadius,u=[];function n(e,t){e.style.viewTransitionName=t,u.push(e)}function b(){for(let e of u)e.style.viewTransitionName="";u=[]}function w(){return[...document.querySelectorAll(".post-header > *, .page-header > *, .pf-nav, .pf-subnav, .toc, .post-content > *, .posts-grid > *, main > .post-entry, .post-footer")].filter(e=>{let t=e.getBoundingClientRect();return t.height>0&&t.top<innerHeight})}d=null,addEventListener("click",e=>{let t=e.target.closest?.("a[href]");t&&(d=t.href)},!0),addEventListener("pageswap",e=>{if(!e.viewTransition)return;let h=e.activation?.entry?.url??d,a=h?s(h):null,l=!t&&a&&v(a),w=a&&!t?m(a):0,O=[...document.querySelectorAll(".pf-nav a")].map(e=>s(e.href)),b=!!a&&O.some(e=>a.startsWith(e)),y={};for(let[e,s]of Object.entries(j()))e!=="site-header"&&!b||t&&p.has(e)||s&&r(s)&&(n(s,e),y[e]=e!=="vt-title"||f(s));let u=null,_=document.querySelector("main");l&&r(l)?(n(l,"vt-card"),u={card:!0,color:o(l),radius:g(l)}):!b&&!t&&_&&(n(_,"vt-card"),u={card:!1,color:o(document.body),radius:"0px"});try{sessionStorage.setItem(c,JSON.stringify({from:i,to:a,dir:w,named:y,zoom:u}))}catch{}}),addEventListener("pagereveal",s=>{if(b(),!s.viewTransition)return;let a=null;try{a=JSON.parse(sessionStorage.getItem(c)),sessionStorage.removeItem(c)}catch{}(!a||a.from===i||a.to&&a.to!==i)&&(a={from:null,dir:0,named:{}});let O=t?0:a.dir||(a.from?-m(a.from):0),x=document.querySelector("main"),l=a.from&&v(a.from),u=!t&&a.zoom?.card&&x,C=!t&&!u&&a.zoom&&l&&r(l),d=j();(u||d["vt-title"]&&f(d["vt-title"])!==a.named["vt-title"])&&(d["vt-title"]=null);for(let e of Object.keys(a.named))d[e]&&!(t&&p.has(e))&&n(d[e],e);if(e.dataset.vt=O>0?"forward":O<0?"backward":"fade",u){n(x,"vt-card"),y("in",a.zoom,{color:o(document.body),radius:"0px"});let t=getComputedStyle(e);_(w().map(e=>[e,h.block]),parseFloat(t.getPropertyValue("--spring-zoom-dur"))*1e3*.25||120)}else C&&(n(l,"vt-card"),y("out",a.zoom,{color:o(l),radius:g(l)}));s.viewTransition.finished.finally(()=>{delete e.dataset.vt,delete e.dataset.vtZoom;for(let t of["--vt-from","--vt-to","--vt-r0","--vt-r1"])e.style.removeProperty(t);b()})});function y(t,n,s){e.dataset.vtZoom=t,e.style.setProperty("--vt-from",n.color),e.style.setProperty("--vt-to",s.color),e.style.setProperty("--vt-r0",n.radius),e.style.setProperty("--vt-r1",s.radius)}})()</script><link rel=expect href=#main blocking=render><style>@view-transition{navigation: auto; }</style><script type=speculationrules>{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.pdf"}},{"not":{"selector_matches":"[target=_blank]"}}]},"eagerness":"moderate"}]}</script><meta name=google-site-verification content="4LW0Kz5jshWq1jB2UQzL4dNhsCvsNYKeNa8ADrCx6Qo"><meta name=robots content="index, follow"><title>Year 1 · Fall 2022 | Eiken</title>
+<meta name=keywords content="NYCU"><meta name=description content="I took 27 credits this semester. My GPA was 4.09.
+
+  
+      
+          Course Name
+          Teacher
+          老師
+          Credits
+          Score
+      
+  
+  
+      
+          Calculus A (I)
+          Yuki CHINO
+          千野由喜
+          4
+          A+
+      
+      
+          Physics (I)
+          LIN Chun-Liang
+          林俊良
+          4
+          A
+      
+      
+          Introduction to Computer Science (I)
+          CHEN Chiuyuan
+          陳秋媛
+          3
+          A-
+      
+      
+          Introduction to Scientific Research and Implementation (I)
+          Interdisciplinary Science Degree Program
+          理學院科學學士學位學程
+          3
+          A
+      
+      
+          Linear Algebra (I)
+          SHIUE Ming-Cheng
+          薛名成
+          3
+          A+
+      
+      
+          Mentor’s Hours
+          Department of Applied Mathematics
+          應用數學系
+          1
+          P
+      
+      
+          Service Learning I
+          Department of Applied Mathematics
+          應用數學系
+          1
+          P
+      
+      
+          Basic Mathematics
+          WENG Chih-wen
+          翁志文
+          3
+          A
+      
+      
+          Honor Calculus Problem Solving Session (I)
+          CHAN Chi Hin
+          陳子軒
+          1
+          A
+      
+      
+          Physics Recitation (I)
+          LIN Chun-Liang
+          林俊良
+          0
+          P
+      
+      
+          Physical Education
+          CHANG Yu-Hua
+          張祐華
+          0
+          A-
+      
+      
+          English Communication
+          KWONG Yuemin
+          鄺越敏
+          2
+          A+
+      
+      
+          Japanese (I)
+          KAMIJO Sumie
+          上條純惠
+          2
+          A+
+      
+  
+
+Taking 27 credits was tough, especially after midterms. Most grades landed within expectations, with Introduction to Computer Science the exception."><meta name=author content="CHANG Yung-Hsuan"><link rel=canonical href=https://eiken59.github.io/reflections/y1s1/><link crossorigin=anonymous href=/assets/css/stylesheet.37e59cde59166c6cb376e95dde92f5db7c41f311f6c309120c2ee30b224702d1.css integrity="sha256-N+Wc3lkWbGyzduld3pL123xB8xH2wwkSDC7jCyJHAtE=" rel="preload stylesheet" as=style><link rel=icon href=https://eiken59.github.io/fairy_icon_transparent.png><link rel=icon type=image/png sizes=16x16 href=https://eiken59.github.io/fairy_icon_transparent.png><link rel=icon type=image/png sizes=32x32 href=https://eiken59.github.io/fairy_icon_transparent.png><link rel=apple-touch-icon href=https://eiken59.github.io/fairy_icon_transparent.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://eiken59.github.io/reflections/y1s1/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="https://eiken59.github.io/reflections/y1s1/"><meta property="og:site_name" content="Eiken"><meta property="og:title" content="Year 1 · Fall 2022"><meta property="og:description" content="I took 27 credits this semester. My GPA was 4.09.
+Course Name Teacher 老師 Credits Score Calculus A (I) Yuki CHINO 千野由喜 4 A+ Physics (I) LIN Chun-Liang 林俊良 4 A Introduction to Computer Science (I) CHEN Chiuyuan 陳秋媛 3 A- Introduction to Scientific Research and Implementation (I) Interdisciplinary Science Degree Program 理學院科學學士學位學程 3 A Linear Algebra (I) SHIUE Ming-Cheng 薛名成 3 A+ Mentor’s Hours Department of Applied Mathematics 應用數學系 1 P Service Learning I Department of Applied Mathematics 應用數學系 1 P Basic Mathematics WENG Chih-wen 翁志文 3 A Honor Calculus Problem Solving Session (I) CHAN Chi Hin 陳子軒 1 A Physics Recitation (I) LIN Chun-Liang 林俊良 0 P Physical Education CHANG Yu-Hua 張祐華 0 A- English Communication KWONG Yuemin 鄺越敏 2 A+ Japanese (I) KAMIJO Sumie 上條純惠 2 A+ Taking 27 credits was tough, especially after midterms. Most grades landed within expectations, with Introduction to Computer Science the exception."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="reflections"><meta property="article:published_time" content="2023-01-31T00:00:00+00:00"><meta property="article:modified_time" content="2023-01-31T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Year 1 · Fall 2022"><meta name=twitter:description content="I took 27 credits this semester. My GPA was 4.09.
+
+  
+      
+          Course Name
+          Teacher
+          老師
+          Credits
+          Score
+      
+  
+  
+      
+          Calculus A (I)
+          Yuki CHINO
+          千野由喜
+          4
+          A+
+      
+      
+          Physics (I)
+          LIN Chun-Liang
+          林俊良
+          4
+          A
+      
+      
+          Introduction to Computer Science (I)
+          CHEN Chiuyuan
+          陳秋媛
+          3
+          A-
+      
+      
+          Introduction to Scientific Research and Implementation (I)
+          Interdisciplinary Science Degree Program
+          理學院科學學士學位學程
+          3
+          A
+      
+      
+          Linear Algebra (I)
+          SHIUE Ming-Cheng
+          薛名成
+          3
+          A+
+      
+      
+          Mentor’s Hours
+          Department of Applied Mathematics
+          應用數學系
+          1
+          P
+      
+      
+          Service Learning I
+          Department of Applied Mathematics
+          應用數學系
+          1
+          P
+      
+      
+          Basic Mathematics
+          WENG Chih-wen
+          翁志文
+          3
+          A
+      
+      
+          Honor Calculus Problem Solving Session (I)
+          CHAN Chi Hin
+          陳子軒
+          1
+          A
+      
+      
+          Physics Recitation (I)
+          LIN Chun-Liang
+          林俊良
+          0
+          P
+      
+      
+          Physical Education
+          CHANG Yu-Hua
+          張祐華
+          0
+          A-
+      
+      
+          English Communication
+          KWONG Yuemin
+          鄺越敏
+          2
+          A+
+      
+      
+          Japanese (I)
+          KAMIJO Sumie
+          上條純惠
+          2
+          A+
+      
+  
+
+Taking 27 credits was tough, especially after midterms. Most grades landed within expectations, with Introduction to Computer Science the exception."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Undergraduate Course Reflections","item":"https://eiken59.github.io/reflections/"},{"@type":"ListItem","position":2,"name":"Year 1 · Fall 2022","item":"https://eiken59.github.io/reflections/y1s1/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Year 1 · Fall 2022","name":"Year 1 · Fall 2022","description":"I took 27 credits this semester. My GPA was 4.09.\nCourse Name Teacher 老師 Credits Score Calculus A (I) Yuki CHINO 千野由喜 4 A+ Physics (I) LIN Chun-Liang 林俊良 4 A Introduction to Computer Science (I) CHEN Chiuyuan 陳秋媛 3 A- Introduction to Scientific Research and Implementation (I) Interdisciplinary Science Degree Program 理學院科學學士學位學程 3 A Linear Algebra (I) SHIUE Ming-Cheng 薛名成 3 A+ Mentor’s Hours Department of Applied Mathematics 應用數學系 1 P Service Learning I Department of Applied Mathematics 應用數學系 1 P Basic Mathematics WENG Chih-wen 翁志文 3 A Honor Calculus Problem Solving Session (I) CHAN Chi Hin 陳子軒 1 A Physics Recitation (I) LIN Chun-Liang 林俊良 0 P Physical Education CHANG Yu-Hua 張祐華 0 A- English Communication KWONG Yuemin 鄺越敏 2 A+ Japanese (I) KAMIJO Sumie 上條純惠 2 A+ Taking 27 credits was tough, especially after midterms. Most grades landed within expectations, with Introduction to Computer Science the exception.\n","keywords":["NYCU"],"articleBody":"I took 27 credits this semester. My GPA was 4.09.\nCourse Name Teacher 老師 Credits Score Calculus A (I) Yuki CHINO 千野由喜 4 A+ Physics (I) LIN Chun-Liang 林俊良 4 A Introduction to Computer Science (I) CHEN Chiuyuan 陳秋媛 3 A- Introduction to Scientific Research and Implementation (I) Interdisciplinary Science Degree Program 理學院科學學士學位學程 3 A Linear Algebra (I) SHIUE Ming-Cheng 薛名成 3 A+ Mentor’s Hours Department of Applied Mathematics 應用數學系 1 P Service Learning I Department of Applied Mathematics 應用數學系 1 P Basic Mathematics WENG Chih-wen 翁志文 3 A Honor Calculus Problem Solving Session (I) CHAN Chi Hin 陳子軒 1 A Physics Recitation (I) LIN Chun-Liang 林俊良 0 P Physical Education CHANG Yu-Hua 張祐華 0 A- English Communication KWONG Yuemin 鄺越敏 2 A+ Japanese (I) KAMIJO Sumie 上條純惠 2 A+ Taking 27 credits was tough, especially after midterms. Most grades landed within expectations, with Introduction to Computer Science the exception.\nCalculus A (I) Clear, detailed lectures that build a solid foundation — well-suited to engineering. For Applied Mathematics students, the course skips analysis, so it is worth picking that up on your own, or later courses get harder. Taught in English. Reports, quizzes, and attendance make points easy, but the two midterms and the comprehensive exam (大會考) still need real practice.\nPhysics (I) Mostly 2019-recorded videos with very few in-person sessions; the instructor is fun and emphasizes interaction. Taught in English. Super relaxed — a little studying goes a long way toward a good grade.\nLinear Algebra (I) Essentially MIT 18.06 — a clean, standard linear algebra course. Attendance is not strict, and the bonus points from the video project make a good grade easy.\nIntroduction to Computer Science (I) Taught in C++. Professor Chen’s mathematical background keeps the logic very clear, and she is patient with questions even when strict. The biweekly projects make for a heavy load — easy if you already program, demanding if you do not. Because C++ is her home turf, this first semester is the tougher of the two (the spring sequel switches to Python). It was also the one course that did not go to plan for me this term.\nIntroduction to Scientific Research and Implementation (I) Mostly attending talks and writing reports, plus a group project. Low time commitment, and an A is straightforward once you meet the requirements.\nMentor’s Hours Free credit for attending.\nService Learning I I joined the “Toilet Literature” group, posting short articles in restrooms. An easy A.\nBasic Mathematics The hardest course of the semester — it felt like an 8-credit load on its own. The homework is demanding, but the exams stay close to it and are not tricky, and the instructor is generous with questions. Final grades were curved.\nHonor Calculus Problem Solving Session (I) The instructor picks analysis problems for us to work through at the board. As long as you attend, present, and hand in the report, you will not fail.\nPhysical Education Attendance is 60% of the grade — show up and you pass.\nEnglish Communication Lots of questions from the instructor, so it is good speaking practice. The reports keep it busy, but grading is generous and effort clearly pays off.\nJapanese (I) A slow pace, and the instructor cold-calls, so you have to stay attentive. You can skip, but you will lose points; grading is generally generous.\n","wordCount":"557","inLanguage":"en","datePublished":"2023-01-31T00:00:00Z","dateModified":"2023-01-31T00:00:00Z","author":[{"@type":"Person","name":"CHANG Yung-Hsuan"}],"mainEntityOfPage":{"@type":"WebPage","@id":"https://eiken59.github.io/reflections/y1s1/"},"publisher":{"@type":"Organization","name":"Eiken","logo":{"@type":"ImageObject","url":"https://eiken59.github.io/fairy_icon_transparent.png"}}}</script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css integrity=sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js integrity=sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js integrity=sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk crossorigin=anonymous onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\begin{equation}",right:"\\end{equation}",display:!0},{left:"\\begin{equation*}",right:"\\end{equation*}",display:!0},{left:"\\begin{align}",right:"\\end{align}",display:!0},{left:"\\begin{align*}",right:"\\end{align*}",display:!0},{left:"\\begin{alignat}",right:"\\end{alignat}",display:!0},{left:"\\begin{gather}",right:"\\end{gather}",display:!0},{left:"\\begin{CD}",right:"\\end{CD}",display:!0}],throwOnError:!1})})</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://eiken59.github.io/ accesskey=h title="CHANG Yung-Hsuan"><img src=https://eiken59.github.io/fairy_icon_transparent.png alt aria-label=logo height=18 width=18>CHANG Yung-Hsuan</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://eiken59.github.io/eiken59_CV.pdf target=_blank rel="noopener noreferrer" title=CV><span>CV</span></a></li><li><a href=https://eiken59.github.io/posts/ title=Posts><span>Posts</span></a></li></ul></nav></header><main class=main id=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Year 1 · Fall 2022</h1><div class=post-meta><span title='2023-01-31 00:00:00 +0000 UTC'>January, 2023</span>&nbsp;&#183;&nbsp;CHANG Yung-Hsuan</div></header><div class=toc><details><summary accesskey=c><span class=details>Table of Contents</span></summary><div class=inner><ul><li><a href=#calculus-a-i aria-label="Calculus A (I)">Calculus A (I)</a></li><li><a href=#physics-i aria-label="Physics (I)">Physics (I)</a></li><li><a href=#linear-algebra-i aria-label="Linear Algebra (I)">Linear Algebra (I)</a></li><li><a href=#introduction-to-computer-science-i aria-label="Introduction to Computer Science (I)">Introduction to Computer Science (I)</a></li><li><a href=#introduction-to-scientific-research-and-implementation-i aria-label="Introduction to Scientific Research and Implementation (I)">Introduction to Scientific Research and Implementation (I)</a></li><li><a href=#mentors-hours aria-label="Mentor’s Hours">Mentor’s Hours</a></li><li><a href=#service-learning-i aria-label="Service Learning I">Service Learning I</a></li><li><a href=#basic-mathematics aria-label="Basic Mathematics">Basic Mathematics</a></li><li><a href=#honor-calculus-problem-solving-session-i aria-label="Honor Calculus Problem Solving Session (I)">Honor Calculus Problem Solving Session (I)</a></li><li><a href=#physical-education aria-label="Physical Education">Physical Education</a></li><li><a href=#english-communication aria-label="English Communication">English Communication</a></li><li><a href=#japanese-i aria-label="Japanese (I)">Japanese (I)</a></li></ul></div></details></div><div class=post-content><p>I took 27 credits this semester. My GPA was 4.09.</p><table><thead><tr><th>Course Name</th><th>Teacher</th><th>老師</th><th style=text-align:center>Credits</th><th style=text-align:center>Score</th></tr></thead><tbody><tr><td>Calculus A (I)</td><td>Yuki CHINO</td><td>千野由喜</td><td style=text-align:center>4</td><td style=text-align:center>A+</td></tr><tr><td>Physics (I)</td><td>LIN Chun-Liang</td><td>林俊良</td><td style=text-align:center>4</td><td style=text-align:center>A</td></tr><tr><td>Introduction to Computer Science (I)</td><td>CHEN Chiuyuan</td><td>陳秋媛</td><td style=text-align:center>3</td><td style=text-align:center>A-</td></tr><tr><td>Introduction to Scientific Research and Implementation (I)</td><td><em>Interdisciplinary Science Degree Program</em></td><td><em>理學院科學學士學位學程</em></td><td style=text-align:center>3</td><td style=text-align:center>A</td></tr><tr><td>Linear Algebra (I)</td><td><a href=https://jupiter.math.nycu.edu.tw/~mshiue/ target=_blank>SHIUE Ming-Cheng</a></td><td>薛名成</td><td style=text-align:center>3</td><td style=text-align:center>A+</td></tr><tr><td>Mentor’s Hours</td><td><em>Department of Applied Mathematics</em></td><td><em>應用數學系</em></td><td style=text-align:center>1</td><td style=text-align:center>P</td></tr><tr><td>Service Learning I</td><td><em>Department of Applied Mathematics</em></td><td><em>應用數學系</em></td><td style=text-align:center>1</td><td style=text-align:center>P</td></tr><tr><td>Basic Mathematics</td><td><a href=https://jupiter.math.nycu.edu.tw/~weng/weng.htm target=_blank>WENG Chih-wen</a></td><td>翁志文</td><td style=text-align:center>3</td><td style=text-align:center>A</td></tr><tr><td>Honor Calculus Problem Solving Session (I)</td><td>CHAN Chi Hin</td><td>陳子軒</td><td style=text-align:center>1</td><td style=text-align:center>A</td></tr><tr><td>Physics Recitation (I)</td><td>LIN Chun-Liang</td><td>林俊良</td><td style=text-align:center>0</td><td style=text-align:center>P</td></tr><tr><td>Physical Education</td><td>CHANG Yu-Hua</td><td>張祐華</td><td style=text-align:center>0</td><td style=text-align:center>A-</td></tr><tr><td>English Communication</td><td>KWONG Yuemin</td><td>鄺越敏</td><td style=text-align:center>2</td><td style=text-align:center>A+</td></tr><tr><td>Japanese (I)</td><td>KAMIJO Sumie</td><td>上條純惠</td><td style=text-align:center>2</td><td style=text-align:center>A+</td></tr></tbody></table><p>Taking 27 credits was tough, especially after midterms. Most grades landed within expectations, with Introduction to Computer Science the exception.</p><h2 id=calculus-a-i>Calculus A (I)</h2><p>Clear, detailed lectures that build a solid foundation — well-suited to engineering. For Applied Mathematics students, the course skips analysis, so it is worth picking that up on your own, or later courses get harder. Taught in English. Reports, quizzes, and attendance make points easy, but the two midterms and the comprehensive exam (大會考) still need real practice.</p><h2 id=physics-i>Physics (I)</h2><p>Mostly 2019-recorded videos with very few in-person sessions; the instructor is fun and emphasizes interaction. Taught in English. Super relaxed — a little studying goes a long way toward a good grade.</p><h2 id=linear-algebra-i>Linear Algebra (I)</h2><p>Essentially MIT 18.06 — a clean, standard linear algebra course. Attendance is not strict, and the bonus points from the video project make a good grade easy.</p><h2 id=introduction-to-computer-science-i>Introduction to Computer Science (I)</h2><p>Taught in C++. Professor Chen&rsquo;s mathematical background keeps the logic very clear, and she is patient with questions even when strict. The biweekly projects make for a heavy load — easy if you already program, demanding if you do not. Because C++ is her home turf, this first semester is the tougher of the two (the spring sequel switches to Python). It was also the one course that did not go to plan for me this term.</p><h2 id=introduction-to-scientific-research-and-implementation-i>Introduction to Scientific Research and Implementation (I)</h2><p>Mostly attending talks and writing reports, plus a group project. Low time commitment, and an A is straightforward once you meet the requirements.</p><h2 id=mentors-hours>Mentor’s Hours</h2><p>Free credit for attending.</p><h2 id=service-learning-i>Service Learning I</h2><p>I joined the &ldquo;Toilet Literature&rdquo; group, posting short articles in restrooms. An easy A.</p><h2 id=basic-mathematics>Basic Mathematics</h2><p>The hardest course of the semester — it felt like an 8-credit load on its own. The homework is demanding, but the exams stay close to it and are not tricky, and the instructor is generous with questions. Final grades were curved.</p><h2 id=honor-calculus-problem-solving-session-i>Honor Calculus Problem Solving Session (I)</h2><p>The instructor picks analysis problems for us to work through at the board. As long as you attend, present, and hand in the report, you will not fail.</p><h2 id=physical-education>Physical Education</h2><p>Attendance is 60% of the grade — show up and you pass.</p><h2 id=english-communication>English Communication</h2><p>Lots of questions from the instructor, so it is good speaking practice. The reports keep it busy, but grading is generous and effort clearly pays off.</p><h2 id=japanese-i>Japanese (I)</h2><p>A slow pace, and the instructor cold-calls, so you have to stay attentive. You can skip, but you will lose points; grading is generally generous.</p></div><footer class=post-footer></footer></article></main><footer class=footer><div style=text-align:center><em>On dirige ce qu&rsquo;on affronte. C&rsquo;est là qu&rsquo;on trouve la magie.</em></div></footer><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)})</script><script type=module crossorigin=anonymous src=/js/motion.1169b1d8a678042e95bb0485d457260c9d54f8faabac0142eba7ba4742b663f2.js integrity="sha256-EWmx2KZ4BC6VuwSF1FcmDJ1U+PqrrAFC66e6R0K2Y/I="></script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(e){if(t.innerHTML=e,!t.animate)return;const n=getComputedStyle(document.documentElement);t.animate({opacity:[0,1]},{duration:parseFloat(n.getPropertyValue("--spring-toggle-dur"))*1e3||300,easing:n.getPropertyValue("--spring-toggle").trim()||"ease-out"})}let o=0;function i(){s("copied!"),clearTimeout(o),o=setTimeout(()=>{s("copy")},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),i();return}const n=document.createRange();n.selectNodeContents(e);const s=window.getSelection();s.removeAllRanges(),s.addRange(n);try{document.execCommand("copy"),i()}catch{}s.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
